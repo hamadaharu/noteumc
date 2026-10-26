@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Project-System on Zan UMC Notes</title><link>https://hamadah2o2.github.io/noteumc/tags/project-system/</link><description>Recent content in Project-System on Zan UMC Notes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 19 Oct 2026 09:00:00 +0700</lastBuildDate><atom:link href="https://hamadah2o2.github.io/noteumc/tags/project-system/index.xml" rel="self" type="application/rss+xml"/><item><title>Tugas Pertemuan Pertama</title><link>https://hamadah2o2.github.io/noteumc/p/tugas-pertemuan-pertama/</link><pubDate>Mon, 19 Oct 2026 09:00:00 +0700</pubDate><guid>https://hamadah2o2.github.io/noteumc/p/tugas-pertemuan-pertama/</guid><description>&lt;img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkVRN00qdsXIjmGc2C2tiWUoF8R_tHVeSxfisHcPryAcytkFlZzbjB8M4&amp;s=10" alt="Featured image of post Tugas Pertemuan Pertama" /&gt;&lt;h2 id="ringkasan"&gt;Ringkasan
+&lt;/h2&gt;&lt;p&gt;Dokumen ini merupakan catatan (&lt;em&gt;notes&lt;/em&gt;) pemenuhan &lt;strong&gt;Tugas Pertemuan Pertama&lt;/strong&gt; mata kuliah &lt;strong&gt;Project Sistem&lt;/strong&gt;, Program Studi Teknik Informatika, Universitas Muhammadiyah Cirebon. Seluruh instruksi tugas telah diselesaikan sebelum tenggat pukul &lt;strong&gt;09.00&lt;/strong&gt;, dan laporan ini disusun sebagai bukti serta rekam jejak pengerjaan.&lt;/p&gt;
+&lt;p&gt;Berikut ringkasan status pengerjaan:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: center"&gt;No&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Instruksi Tugas&lt;/th&gt;
+&lt;th style="text-align: center"&gt;Status&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Keterangan&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;1&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Pembuatan Akun Google Scholar&lt;/td&gt;
+&lt;td style="text-align: center"&gt;✅ Selesai&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Digunakan untuk pencarian referensi ilmiah dan pengelolaan sitasi&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;2&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Pembuatan Akun Mendeley &amp;amp; Zotero&lt;/td&gt;
+&lt;td style="text-align: center"&gt;✅ Selesai&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Mendeley untuk manajemen &lt;em&gt;library&lt;/em&gt; utama, Zotero sebagai alternatif&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;3&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Install Publish or Perish&lt;/td&gt;
+&lt;td style="text-align: center"&gt;✅ Selesai&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Digunakan untuk analisis sitasi dan pencarian literatur via Google Scholar&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;4&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Persiapan Website Perkuliahan&lt;/td&gt;
+&lt;td style="text-align: center"&gt;✅ Selesai&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Website berbasis &lt;strong&gt;Hugo&lt;/strong&gt; sebagai media publikasi materi dan tugas kuliah&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;5&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Pemilihan Tema Penelitian&lt;/td&gt;
+&lt;td style="text-align: center"&gt;✅ Selesai&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Memilih tema &lt;strong&gt;c. Jaringan Komputer / IoT&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="1-akun-google-scholar"&gt;1. Akun Google Scholar
+&lt;/h2&gt;&lt;p&gt;Google Scholar dibuat untuk mendukung proses pencarian referensi ilmiah, pengecekan sitasi, dan pemantauan publikasi akademik. Akun ini terhubung dengan email kampus dan akan digunakan sepanjang pengerjaan Project System.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kegunaan utama dalam konteks project:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mencari jurnal penelitian terdahulu yang relevan dengan topik IoT dan &lt;em&gt;smart campus&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Memverifikasi reputasi dan jumlah sitasi suatu publikasi sebelum dijadikan rujukan.&lt;/li&gt;
+&lt;li&gt;Menjadi sumber data untuk &lt;em&gt;literature review&lt;/em&gt; pada Bab II proposal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="2-akun-mendeley--zotero"&gt;2. Akun Mendeley &amp;amp; Zotero
+&lt;/h2&gt;&lt;p&gt;Kedua &lt;em&gt;reference manager&lt;/em&gt; ini dipersiapkan sebagai alat bantu dalam mengelola daftar pustaka.&lt;/p&gt;
+&lt;h3 id="mendeley"&gt;Mendeley
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Digunakan sebagai &lt;strong&gt;manajer referensi utama&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Mendukung impor metadata langsung dari Google Scholar dan PDF.&lt;/li&gt;
+&lt;li&gt;Terintegrasi dengan Microsoft Word melalui &lt;em&gt;Mendeley Cite&lt;/em&gt; untuk pembuatan sitasi otomatis (format APA/IEEE).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="zotero"&gt;Zotero
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Dipersiapkan sebagai &lt;strong&gt;alternatif cadangan&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Keunggulan pada &lt;em&gt;browser connector&lt;/em&gt; yang cepat menangkap metadata dari halaman web jurnal.&lt;/li&gt;
+&lt;li&gt;Berguna untuk menyimpan &lt;em&gt;snapshot&lt;/em&gt; halaman referensi secara utuh.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dengan dua alat ini, penulisan daftar pustaka pada laporan Project System dapat dilakukan secara konsisten dan terhindar dari kesalahan format.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="3-publish-or-perish-pop"&gt;3. Publish or Perish (PoP)
+&lt;/h2&gt;&lt;p&gt;Publish or Perish telah di-&lt;em&gt;install&lt;/em&gt; dan dikonfigurasi menggunakan sumber data &lt;strong&gt;Google Scholar&lt;/strong&gt;. Perangkat lunak ini akan dimanfaatkan untuk:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Menghitung metrik sitasi (&lt;em&gt;h-index&lt;/em&gt;, &lt;em&gt;g-index&lt;/em&gt;) dari kandidat referensi.&lt;/li&gt;
+&lt;li&gt;Menelusuri penelitian terdahulu yang membahas topik serupa.&lt;/li&gt;
+&lt;li&gt;Mengekspor hasil pencarian ke format &lt;code&gt;.bib&lt;/code&gt; atau &lt;code&gt;.ris&lt;/code&gt; agar dapat diimpor ke Mendeley/Zotero.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Alur kerja yang direncanakan:&lt;/p&gt;
+&lt;pre class="mermaid"&gt;
+flowchart LR
+A[Publish or Perish] --&amp;gt;|Query topik IoT| B[Hasil pencarian + metrik sitasi]
+B --&amp;gt;|Export .bib / .ris| C[Mendeley / Zotero]
+C --&amp;gt;|Cite otomatis| D[Laporan Project System]
+&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id="4-website-perkuliahan"&gt;4. Website Perkuliahan
+&lt;/h2&gt;&lt;p&gt;Website perkuliahan disiapkan menggunakan &lt;strong&gt;Hugo&lt;/strong&gt; (generator situs statis) dengan alasan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Proses &lt;em&gt;build&lt;/em&gt; cepat dan ringan.&lt;/li&gt;
+&lt;li&gt;Konten ditulis dalam format &lt;strong&gt;Markdown&lt;/strong&gt;, sehingga mudah didokumentasikan.&lt;/li&gt;
+&lt;li&gt;Mudah di-&lt;em&gt;deploy&lt;/em&gt; ke hosting statis (GitHub Pages / Netlify).&lt;/li&gt;
+&lt;li&gt;Mendukung &lt;em&gt;front matter&lt;/em&gt; untuk kategorisasi dan penandaan (&lt;em&gt;tagging&lt;/em&gt;) setiap tugas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Struktur direktori konten yang digunakan:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;content/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;└── posts/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; ├── tugas-pertemuan-pertama.md
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; └── ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;static/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;└── img/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; ├── iot-mapping.jpeg
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; └── ...
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Website ini akan menjadi wadah publikasi seluruh materi perkuliahan dan laporan tugas selama satu semester.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="5-tema-penelitian-yang-dipilih"&gt;5. Tema Penelitian yang Dipilih
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Tema: c. Jaringan Komputer / Internet of Things (IoT)&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="judul-project-system"&gt;Judul Project System
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Sistem Informasi Mapping dan Monitoring Ketersediaan Ruang Kelas Berbasis IoT (Studi Kasus: Universitas Muhammadiyah Cirebon)&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="alasan-pemilihan-tema"&gt;Alasan Pemilihan Tema
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Relevansi dengan permasalahan nyata di kampus.&lt;/strong&gt; Jadwal statis yang ditempel di awal semester sering tidak sesuai kondisi lapangan ketika terjadi perubahan jadwal, kelas pengganti, atau pembatalan kuliah.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kombinasi dua bidang keilmuan.&lt;/strong&gt; Penelitian ini menggabungkan &lt;em&gt;hardware&lt;/em&gt; (mikrokontroler dan sensor) dengan &lt;em&gt;software&lt;/em&gt; (sistem informasi berbasis web), sehingga mencakup ranah jaringan komputer sekaligus rekayasa perangkat lunak.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mendukung konsep Smart Campus&lt;/strong&gt; yang sedang diarahkan pada lingkungan Universitas Muhammadiyah Cirebon.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kelayakan implementasi&lt;/strong&gt; relatif tinggi karena komponen yang digunakan (ESP8266 dan sensor PIR) murah dan mudah diperoleh.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="6-ringkasan-substansi-project"&gt;6. Ringkasan Substansi Project
+&lt;/h2&gt;&lt;h3 id="61-latar-belakang"&gt;6.1 Latar Belakang
+&lt;/h3&gt;&lt;p&gt;Peningkatan jumlah mahasiswa Universitas Muhammadiyah Cirebon berbanding lurus dengan intensitas penggunaan ruang kelas. Namun, pemantauan penggunaan ruang kelas masih bersifat &lt;strong&gt;konvensional&lt;/strong&gt; dan bergantung pada &lt;strong&gt;jadwal statis&lt;/strong&gt;. Akibatnya:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mahasiswa dan dosen harus mendatangi ruangan satu per satu untuk mengetahui statusnya.&lt;/li&gt;
+&lt;li&gt;Jadwal statis tidak merepresentasikan kondisi aktual (misalnya kelas selesai lebih cepat atau dibatalkan).&lt;/li&gt;
+&lt;li&gt;Pengecekan manual tidak efisien dari segi waktu dan tenaga.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Solusi yang ditawarkan adalah &lt;strong&gt;sistem pemantauan otomatis berbasis IoT&lt;/strong&gt; dengan sensor keberadaan yang terintegrasi ke dashboard web, menampilkan &lt;strong&gt;denah gedung digital&lt;/strong&gt; (&lt;em&gt;indoor mapping&lt;/em&gt;) dengan indikator warna status ruangan.&lt;/p&gt;
+&lt;h3 id="62-rumusan-masalah"&gt;6.2 Rumusan Masalah
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Bagaimana merancang bangun perangkat IoT yang mampu mendeteksi keberadaan pengguna di dalam ruang kelas secara &lt;em&gt;real-time&lt;/em&gt;?&lt;/li&gt;
+&lt;li&gt;Bagaimana membangun sistem informasi berbasis web yang dapat menampilkan visualisasi denah ketersediaan ruang kelas di UMC?&lt;/li&gt;
+&lt;li&gt;Bagaimana mengintegrasikan data sensor IoT ke dalam &lt;em&gt;dashboard&lt;/em&gt; web agar status ruangan ter-&lt;em&gt;update&lt;/em&gt; otomatis tanpa input manual?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="63-tujuan-penelitian"&gt;6.3 Tujuan Penelitian
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Merancang dan membangun perangkat keras IoT menggunakan &lt;strong&gt;ESP8266&lt;/strong&gt; dan &lt;strong&gt;sensor PIR&lt;/strong&gt; untuk deteksi keberadaan pengguna secara &lt;em&gt;real-time&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Membangun &lt;strong&gt;dashboard web&lt;/strong&gt; yang memvisualisasikan denah gedung UMC sebagai penanda status ketersediaan ruang kelas.&lt;/li&gt;
+&lt;li&gt;Mengimplementasikan integrasi antara perangkat sensor dan server web agar perubahan status ter-&lt;em&gt;update&lt;/em&gt; otomatis.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="64-batasan-masalah"&gt;6.4 Batasan Masalah
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Aspek&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Batasan&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Objek&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Studi kasus di Universitas Muhammadiyah Cirebon (implementasi prototipe pada ruang kelas terpilih)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Perangkat Keras&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Mikrokontroler &lt;strong&gt;ESP8266&lt;/strong&gt; dan sensor &lt;strong&gt;PIR&lt;/strong&gt; (&lt;em&gt;Passive Infrared&lt;/em&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Sistem Mapping&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;em&gt;Indoor mapping&lt;/em&gt; (denah lantai digital), bukan GIS berskala luas&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Perangkat Lunak&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;PHP&lt;/strong&gt; dan basis data &lt;strong&gt;MySQL&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Indikator Status&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Dua kondisi: &lt;strong&gt;Terisi&lt;/strong&gt; (merah) dan &lt;strong&gt;Kosong&lt;/strong&gt; (hijau)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Konektivitas&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Memerlukan jaringan Wi-Fi yang stabil di area kelas&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="65-manfaat-penelitian"&gt;6.5 Manfaat Penelitian
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Teoretis&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Menjadi referensi bagi penelitian selanjutnya terkait IoT untuk konsep &lt;em&gt;Smart Campus&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Memperluas wawasan mengenai integrasi &lt;em&gt;sensor hardware&lt;/em&gt; dengan sistem informasi berbasis web dalam konteks &lt;em&gt;indoor mapping&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Praktis&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mahasiswa &amp;amp; Dosen:&lt;/strong&gt; kemudahan mencari ruang kelas kosong secara &lt;em&gt;real-time&lt;/em&gt; tanpa pengecekan fisik.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Universitas:&lt;/strong&gt; mendukung terwujudnya &lt;em&gt;Smart Campus&lt;/em&gt; melalui manajemen fasilitas yang lebih modern dan transparan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Penulis:&lt;/strong&gt; sarana implementasi ilmu pemrograman web, jaringan komputer, dan mikrokontroler.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="7-landasan-teori-singkat"&gt;7. Landasan Teori Singkat
+&lt;/h2&gt;&lt;h3 id="71-sistem-informasi"&gt;7.1 Sistem Informasi
+&lt;/h3&gt;&lt;p&gt;Kombinasi teknologi informasi dan aktivitas manusia yang menggunakannya untuk mendukung operasi dan manajemen. Pada penelitian ini, sistem informasi berperan mengolah data mentah sensor menjadi informasi visual (status ruangan) yang berguna bagi pengguna.&lt;/p&gt;
+&lt;h3 id="72-mapping-digital-indoor-mapping"&gt;7.2 Mapping Digital (Indoor Mapping)
+&lt;/h3&gt;&lt;p&gt;Proses visualisasi data spasial atau denah lokasi ke dalam format digital. Dalam penelitian ini, pemetaan &lt;strong&gt;tidak&lt;/strong&gt; merujuk pada pemetaan geografis bumi (GIS), melainkan &lt;strong&gt;denah lantai gedung&lt;/strong&gt; untuk menunjukkan posisi ruang kelas secara spesifik.&lt;/p&gt;
+&lt;h3 id="73-internet-of-things-iot"&gt;7.3 Internet of Things (IoT)
+&lt;/h3&gt;&lt;p&gt;Konsep di mana objek fisik memiliki kemampuan mentransfer data melalui jaringan tanpa memerlukan interaksi manusia ke manusia. Arsitektur sistem terdiri dari &lt;strong&gt;Node&lt;/strong&gt; (perangkat sensor) yang mengirim data status ruangan ke &lt;strong&gt;Server&lt;/strong&gt; (&lt;em&gt;web dashboard&lt;/em&gt;) melalui koneksi nirkabel.&lt;/p&gt;
+&lt;h3 id="74-mikrokontroler-esp8266"&gt;7.4 Mikrokontroler ESP8266
+&lt;/h3&gt;&lt;p&gt;Modul mikrokontroler dengan kemampuan Wi-Fi terintegrasi. Umum digunakan dalam pengembangan IoT karena dapat terhubung langsung ke internet (&lt;em&gt;stand-alone&lt;/em&gt;) tanpa mikrokontroler tambahan.&lt;/p&gt;
+&lt;h3 id="75-sensor-pir-passive-infrared"&gt;7.5 Sensor PIR (&lt;em&gt;Passive Infrared&lt;/em&gt;)
+&lt;/h3&gt;&lt;p&gt;Sensor yang mendeteksi keberadaan berdasarkan &lt;strong&gt;pergerakan objek&lt;/strong&gt; melalui pancaran inframerah pasif dari tubuh manusia.&lt;/p&gt;
+&lt;h3 id="76-stack-teknologi"&gt;7.6 Stack Teknologi
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Lapisan&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Teknologi&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Firmware perangkat&lt;/td&gt;
+&lt;td style="text-align: left"&gt;C/C++ (Arduino IDE)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Backend dashboard&lt;/td&gt;
+&lt;td style="text-align: left"&gt;PHP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Basis data&lt;/td&gt;
+&lt;td style="text-align: left"&gt;MySQL&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Antarmuka pengguna&lt;/td&gt;
+&lt;td style="text-align: left"&gt;HTML, CSS, JavaScript (Web Browser)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="8-perancangan-sistem"&gt;8. Perancangan Sistem
+&lt;/h2&gt;&lt;h3 id="81-arsitektur-umum"&gt;8.1 Arsitektur Umum
+&lt;/h3&gt;&lt;pre class="mermaid"&gt;
+flowchart TB
+subgraph Node[&amp;#34;Perangkat Keras (Ruang Kelas)&amp;#34;]
+A[Sensor PIR] --&amp;gt;|Sinyal 0/1| B[ESP8266]
+end
+B --&amp;gt;|HTTP POST via Wi-Fi| C[Server Web]
+C --&amp;gt; D[(Database MySQL)]
+C --&amp;gt; E[Dashboard PHP]
+E --&amp;gt;|Denah + Indikator Warna| F[Dosen / Mahasiswa / Admin]
+&lt;/pre&gt;
+&lt;h3 id="82-aktor-sistem-use-case"&gt;8.2 Aktor Sistem (Use Case)
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Aktor&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Peran&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Mahasiswa &amp;amp; Dosen&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Melihat &lt;em&gt;mapping&lt;/em&gt; denah ruangan secara &lt;em&gt;real-time&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Admin&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Mengelola data master ruang kelas dan konfigurasi node&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Perangkat Sensor IoT&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Mengirim data logika pergerakan (0/1)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="83-alur-aktivitas-pengiriman-data"&gt;8.3 Alur Aktivitas Pengiriman Data
+&lt;/h3&gt;&lt;pre class="mermaid"&gt;
+sequenceDiagram
+participant PIR as Sensor PIR
+participant ESP as ESP8266
+participant SRV as Server (API)
+participant DB as MySQL
+PIR-&amp;gt;&amp;gt;ESP: Deteksi pergerakan (sinyal 0/1)
+ESP-&amp;gt;&amp;gt;ESP: Proses data (verifikasi logika)
+ESP-&amp;gt;&amp;gt;SRV: HTTP POST (status, timestamp, ID node)
+SRV-&amp;gt;&amp;gt;SRV: Ekstrak data sensor
+SRV-&amp;gt;&amp;gt;DB: Query SQL (UPDATE status)
+DB--&amp;gt;&amp;gt;SRV: Konfirmasi
+SRV--&amp;gt;&amp;gt;ESP: HTTP Response 200 OK
+&lt;/pre&gt;
+&lt;h3 id="84-perancangan-basis-data"&gt;8.4 Perancangan Basis Data
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Tabel &lt;code&gt;ruang_kelas&lt;/code&gt;&lt;/strong&gt; — menyimpan data master identitas ruangan beserta status ketersediaan saat ini.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Field&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Tipe&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Keterangan&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;code&gt;id_ruang&lt;/code&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;VARCHAR (PK)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Kode unik ruangan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;code&gt;nama_ruang&lt;/code&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;VARCHAR&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Nama atau nomor ruang kelas&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;code&gt;lokasi_gedung&lt;/code&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;VARCHAR&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Nama gedung atau lantai&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;code&gt;status_ketersediaan&lt;/code&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;ENUM(&amp;lsquo;Kosong&amp;rsquo;,&amp;lsquo;Terisi&amp;rsquo;)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Indikator kondisi &lt;em&gt;real-time&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;code&gt;last_update&lt;/code&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;TIMESTAMP&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Waktu pembaruan data terakhir dari IoT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Tabel &lt;code&gt;log_sensor&lt;/code&gt;&lt;/strong&gt; — merekam riwayat perubahan kondisi yang ditangkap sensor.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Field&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Tipe&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Keterangan&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;code&gt;id_log&lt;/code&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;INT (PK, AI)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;ID log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;code&gt;id_ruang&lt;/code&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;VARCHAR (FK)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Relasi ke &lt;code&gt;ruang_kelas&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;code&gt;logika_gerak&lt;/code&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;TINYINT&lt;/td&gt;
+&lt;td style="text-align: left"&gt;1 = ada gerakan, 0 = tidak ada&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;code&gt;waktu_log&lt;/code&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;TIMESTAMP&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Waktu pencatatan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="85-perancangan-input"&gt;8.5 Perancangan Input
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Input Otomatis (Hardware)&lt;/strong&gt; — sinyal logika &lt;code&gt;HIGH (1)&lt;/code&gt; atau &lt;code&gt;LOW (0)&lt;/code&gt; dari sensor PIR berdasarkan deteksi pancaran inframerah dari pergerakan manusia, dikirim mikrokontroler via protokol HTTP POST/GET ke server.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Input Manual (Admin Web)&lt;/strong&gt; — formulir berbasis web untuk menambah, mengubah, atau menghapus data master ruang kelas serta memetakan koordinat denah gedung.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="86-perancangan-output"&gt;8.6 Perancangan Output
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Indikator warna status:&lt;/strong&gt; ruangan &lt;strong&gt;Terisi&lt;/strong&gt; berwarna &lt;strong&gt;merah&lt;/strong&gt;, ruangan &lt;strong&gt;Kosong&lt;/strong&gt; berwarna &lt;strong&gt;hijau&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Informasi tambahan:&lt;/strong&gt; nama ruangan, lokasi lantai, serta waktu terakhir data diperbarui dari node sensor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="9-rencana-implementasi"&gt;9. Rencana Implementasi
+&lt;/h2&gt;&lt;h3 id="91-perangkat-keras"&gt;9.1 Perangkat Keras
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Komponen&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Fungsi&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Mikrokontroler &lt;strong&gt;ESP8266&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Unit pemroses utama dengan modul Wi-Fi internal&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Sensor &lt;strong&gt;PIR&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Pendeteksi keberadaan manusia berbasis pergerakan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Router Wi-Fi Kampus&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Media transmisi jaringan nirkabel lokal di area kelas&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;Komputer Server / Cloud Hosting&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Menampung database dan web server &lt;em&gt;dashboard&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="92-perangkat-lunak"&gt;9.2 Perangkat Lunak
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Perangkat&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Fungsi&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;PHP&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Pengembangan &lt;em&gt;backend&lt;/em&gt; dashboard yang dinamis&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;MySQL&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Sistem manajemen basis data relasional&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Arduino IDE (C/C++)&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Penulisan program dan &lt;em&gt;flashing firmware&lt;/em&gt; ke ESP8266&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Web Browser&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Antarmuka pengguna mengakses dashboard monitoring&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="93-pelaksana-brainware"&gt;9.3 Pelaksana (&lt;em&gt;Brainware&lt;/em&gt;)
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Peran&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Tanggung Jawab&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Administrator Sistem&lt;/strong&gt; (Staf IT/Akademik)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Pemeliharaan web server, pengelolaan master data ruangan, konfigurasi teknis alat&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Dosen&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Pengguna akhir — mencari ruang kelas pengganti atau ruang rapat kosong&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Mahasiswa&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Pengguna akhir — memantau status keterpakaian kelas secara &lt;em&gt;real-time&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="10-penelitian-terdahulu-ringkasan"&gt;10. Penelitian Terdahulu (Ringkasan)
+&lt;/h2&gt;&lt;p&gt;Beberapa penelitian sejenis yang menjadi referensi awal:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: center"&gt;No&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Penulis (Tahun)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Fokus Penelitian&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Perbedaan dengan Penelitian Ini&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;1&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Syifa Chairunnisa Azzahra SRG, dkk. (2025)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Monitoring ketersediaan ruang kelas berbasis LoRa&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Menggunakan LoRa + ESP32; penelitian ini menggunakan ESP8266 berbasis Wi-Fi dengan fokus visualisasi denah digital&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;2&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Via Khusnul Pratifi, dkk. (2024)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Integrasi DHT11 + PIR untuk otomatisasi suhu dan deteksi gerakan&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Fokus pada kontrol suhu/kipas; penelitian ini pada pemantauan status ketersediaan ruang kelas&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;3&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Krisna Gilang Prakoso &amp;amp; Bonda Sisehaputra (2024)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Monitoring ruang kuliah berbasis NFC&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Memerlukan &lt;em&gt;tapping&lt;/em&gt; kartu e-KTP; penelitian ini memakai PIR tanpa interaksi fisik&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;4&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Safarudin, dkk. (2023)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Smart classroom dengan RFID berbasis IoT&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Fokus pada kendali akses pintu (&lt;em&gt;auto-lock&lt;/em&gt;); penelitian ini pada penyajian visual status ruangan&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;5&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Joko Riyanto, dkk. (2020)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Monitoring ruang kelas berbasis IoT di Universitas Pamulang&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Menggunakan Raspberry Pi + LDR; penelitian ini ESP8266 + PIR&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;6&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Ferdinand Tri Wibowo (2010)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Sistem informasi multimedia visualisasi pemakaian ruang kelas&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Visualisasi berbasis jadwal statis; penelitian ini dinamis dari data sensor &lt;em&gt;real-time&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;7&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Annisa Dwita Aurum (2021)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Monitoring laboratorium dengan sensor &lt;em&gt;optical fingerprint&lt;/em&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Menggunakan sidik jari; penelitian ini PIR tanpa data biometrik&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;8&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Dyna Marisa Khairina, dkk. (2018)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;SIMERU — manajemen reservasi ruang (FKTI Universitas Mulawarman)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Aplikasi desktop untuk reservasi; penelitian ini berbasis IoT dan web untuk kondisi aktual&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;9&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Indah Purnama Sari, dkk. (2025)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Smart Class berbasis IoT (pengenalan wajah + deteksi asap)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Fokus pada face recognition via ESP32-Cam; penelitian ini pada efisiensi &lt;em&gt;indoor mapping&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;10&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Siti Nur Aini, dkk. (2022)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Smart parking dengan RFID + Arduino Uno&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Objek pada slot parkir; penelitian ini mengadopsi konsep serupa untuk ruang kelas&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="11-kesimpulan--saran"&gt;11. Kesimpulan &amp;amp; Saran
+&lt;/h2&gt;&lt;h3 id="111-kesimpulan"&gt;11.1 Kesimpulan
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Efisiensi pengecekan:&lt;/strong&gt; sistem menggantikan proses pengecekan kelas manual yang tidak efisien dengan visualisasi pemetaan digital secara &lt;em&gt;real-time&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Otomatisasi perangkat:&lt;/strong&gt; kombinasi ESP8266 dan sensor PIR efektif mendeteksi keberadaan pengguna dan mengirimkannya via jaringan nirkabel.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visualisasi intuitif:&lt;/strong&gt; dashboard web menyajikan informasi ketersediaan ruangan melalui indikator warna yang mudah dipahami (merah = terisi, hijau = kosong).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pembaruan otomatis:&lt;/strong&gt; integrasi perangkat keras dan basis data berjalan mulus, status ruangan selalu ter-&lt;em&gt;update&lt;/em&gt; tanpa intervensi manual.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="112-saran-pengembangan"&gt;11.2 Saran Pengembangan
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Aplikasi mobile&lt;/strong&gt; (Android/iOS) dengan fitur &lt;em&gt;push notification&lt;/em&gt; saat ruang kelas kosong.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Penambahan sensor&lt;/strong&gt; suhu (DHT) dan cahaya (LDR) untuk mendukung kendali perangkat listrik otomatis demi efisiensi energi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Peningkatan skalabilitas:&lt;/strong&gt; penyempurnaan desain &lt;em&gt;casing&lt;/em&gt; perangkat keras dan penerapan catu daya cadangan (baterai) untuk implementasi di seluruh gedung kampus.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;Dokumen ini akan diperbarui seiring berjalannya tahapan Project System berikutnya (analisis kebutuhan, perancangan detail, implementasi prototipe, dan pengujian).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;File Project System:&lt;br&gt;
+&lt;a class="link" href="./file/240511053_Project%20Sistem_Muhammad%20Rozaan.pdf" &gt;Project System.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description></item></channel></rss>

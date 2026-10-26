@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sistem Informasi on Zan UMC Notes</title><link>https://hamadah2o2.github.io/noteumc/categories/sistem-informasi/</link><description>Recent content in Sistem Informasi on Zan UMC Notes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 25 Nov 2025 12:19:21 +0700</lastBuildDate><atom:link href="https://hamadah2o2.github.io/noteumc/categories/sistem-informasi/index.xml" rel="self" type="application/rss+xml"/><item><title>Desain Sistem</title><link>https://hamadah2o2.github.io/noteumc/p/desain-sistem/</link><pubDate>Tue, 25 Nov 2025 12:19:21 +0700</pubDate><guid>https://hamadah2o2.github.io/noteumc/p/desain-sistem/</guid><description>&lt;img src="https://hamadah2o2.github.io/noteumc/p/desain-sistem/img/flow.jpeg" alt="Featured image of post Desain Sistem" /&gt;&lt;h2 id="konsep-dasar-desain-sistem"&gt;Konsep Dasar Desain Sistem
+&lt;/h2&gt;&lt;h3 id="a-definisi-desain-sistem"&gt;&lt;strong&gt;A. Definisi Desain Sistem&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Desain sistem adalah tahap transisi dari analisis kebutuhan ke implementasi fisik. Ini adalah proses mendefinisikan arsitektur, komponen, modul, antarmuka, dan data dari sistem untuk memenuhi kebutuhan-kebutuhan yang telah ditentukan pada tahap analisis. Secara sederhana, jika analisis sistem berfokus pada &lt;em&gt;&amp;ldquo;apa yang dibutuhkan&amp;rdquo;&lt;/em&gt;, maka desain sistem berfokus pada &lt;em&gt;&amp;ldquo;bagaimana cara membangunnya&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id="b-tujuan-desain-sistem"&gt;&lt;strong&gt;B. Tujuan Desain Sistem&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Tujuan utama dari tahap desain sistem adalah untuk menghasilkan cetak biru (&lt;em&gt;blueprint&lt;/em&gt;) yang lengkap bagi para programmer dan teknisi. Secara spesifik, tujuannya mencakup:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Efisiensi &amp;amp; Efektivitas:&lt;/strong&gt; Merancang sistem yang dapat memproses data dengan cepat dan memberikan output yang akurat.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reliabilitas (Keandalan):&lt;/strong&gt; Memastikan sistem berjalan stabil dan meminimalkan kegagalan (bug/error).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fleksibilitas:&lt;/strong&gt; Merancang sistem yang mudah dipelihara (&lt;em&gt;maintainable&lt;/em&gt;) dan dikembangkan di masa depan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ekonomis:&lt;/strong&gt; Memastikan solusi yang dirancang sesuai dengan anggaran dan sumber daya yang tersedia.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;User Friendly:&lt;/strong&gt; Menciptakan antarmuka yang mudah dipahami dan digunakan oleh pengguna akhir.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="c-perbedaan-desain-sistem-secara-umum--terinci"&gt;&lt;strong&gt;C. Perbedaan Desain Sistem Secara Umum &amp;amp; Terinci&lt;/strong&gt;
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Aspek&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Desain Sistem Secara Umum (Makro/Logis)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Desain Sistem Secara Terinci (Mikro/Fisik)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Fokus&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Gambaran besar sistem dan hubungannya dengan pengguna.&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Spesifikasi teknis mendalam untuk implementasi kode.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Target Audiens&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Manajer dan Pengguna (User).&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Programmer dan Teknisi Sistem.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Isi&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Desain input/output, desain antarmuka (UI), dan alur kerja logis.&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Struktur database (skema), algoritma program, spesifikasi hardware, dan desain jaringan.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Sifat&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Konseptual (bagaimana sistem terlihat).&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Teknis (bagaimana sistem bekerja di balik layar).&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="desain-sistem-pendekatan-terstruktur-structured-approach"&gt;Desain Sistem Pendekatan Terstruktur (&lt;em&gt;Structured Approach&lt;/em&gt;)
+&lt;/h2&gt;&lt;p&gt;Pendekatan terstruktur adalah metode klasik yang memandang sistem sebagai kumpulan &lt;strong&gt;proses&lt;/strong&gt; atau fungsi yang berinteraksi dengan data. Pendekatan ini bersifat &lt;em&gt;top-down&lt;/em&gt; (dari umum ke khusus) dan memisahkan data dari proses.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hamadah2o2.github.io/noteumc/p/desain-sistem/img/flow.jpeg"
+width="800"
+height="533"
+srcset="https://hamadah2o2.github.io/noteumc/p/desain-sistem/img/flow_hu_9fdaaa6e2eacd4c7.jpeg 480w, https://hamadah2o2.github.io/noteumc/p/desain-sistem/img/flow_hu_b6988798d649e9d6.jpeg 1024w"
+loading="lazy"
+alt="Terstruktur dengan Flowchart"
+class="gallery-image"
+data-flex-grow="150"
+data-flex-basis="360px"
+&gt;&lt;/p&gt;
+&lt;h3 id="1-alat-permodelan-modeling-tools"&gt;&lt;strong&gt;1. Alat Permodelan (Modeling Tools)&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Alat-alat dalam pendekatan terstruktur berfokus pada aliran data:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DFD (Data Flow Diagram):&lt;/strong&gt; Menggambarkan bagaimana data mengalir melalui sistem, diproses, dan disimpan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kamus Data (Data Dictionary):&lt;/strong&gt; Katalog fakta tentang data dan kebutuhan-kebutuhan informasi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flowchart (Bagan Alir):&lt;/strong&gt; Menggambarkan logika prosedural dan langkah-langkah algoritma.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Structure Chart:&lt;/strong&gt; Menunjukkan hirarki modul program dan hubungan antar modul.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ERD (Entity Relationship Diagram):&lt;/strong&gt; Memodelkan struktur data dan hubungan antar tabel.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="2-sistem-operasi"&gt;&lt;strong&gt;2. Sistem Operasi&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Pendekatan ini sering dikaitkan dengan lingkungan yang sangat prosedural atau &lt;em&gt;batch processing&lt;/em&gt;, meskipun bisa berjalan di OS modern. Lingkungan yang umum meliputi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Unix/Linux:&lt;/strong&gt; Sangat kuat dalam pemrosesan berbasis perintah (CLI) dan skrip prosedural.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mainframe OS (z/OS):&lt;/strong&gt; Untuk pemrosesan data transaksi besar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sistem Tertanam (Embedded Systems):&lt;/strong&gt; Sering menggunakan pendekatan terstruktur untuk efisiensi memori yang ketat.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="3-bahasa-pemrograman"&gt;&lt;strong&gt;3. Bahasa Pemrograman&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Bahasa yang digunakan adalah bahasa prosedural yang mengeksekusi instruksi secara berurutan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;C:&lt;/strong&gt; Bahasa prosedural standar industri.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pascal:&lt;/strong&gt; Sering digunakan untuk pembelajaran logika terstruktur.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;COBOL:&lt;/strong&gt; Umum di perbankan/mainframe.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fortran:&lt;/strong&gt; Untuk komputasi saintifik.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="desain-sistem-pendekatan-berorientasi-objek-object-oriented-approach"&gt;Desain Sistem Pendekatan Berorientasi Objek (&lt;em&gt;Object-Oriented Approach&lt;/em&gt;)
+&lt;/h2&gt;&lt;p&gt;Pendekatan berorientasi objek (OOP) memandang sistem sebagai kumpulan &lt;strong&gt;objek&lt;/strong&gt; yang saling berinteraksi. Setiap objek menggabungkan data (atribut) dan perilaku (metode/fungsi) menjadi satu kesatuan (enkapsulasi).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hamadah2o2.github.io/noteumc/p/desain-sistem/img/layers.jpeg"
+width="800"
+height="440"
+srcset="https://hamadah2o2.github.io/noteumc/p/desain-sistem/img/layers_hu_300a490530b91f7f.jpeg 480w, https://hamadah2o2.github.io/noteumc/p/desain-sistem/img/layers_hu_33d5029b88aafe7e.jpeg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="181"
+data-flex-basis="436px"
+&gt;&lt;/p&gt;
+&lt;h3 id="1-alat-permodelan-modeling-tools-1"&gt;&lt;strong&gt;1. Alat Permodelan (Modeling Tools)&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Standar emas untuk desain berorientasi objek adalah &lt;strong&gt;UML (Unified Modeling Language)&lt;/strong&gt;. Diagram utamanya meliputi:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Use Case Diagram:&lt;/strong&gt; Menggambarkan interaksi antara pengguna (aktor) dengan sistem (fungsionalitas).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Class Diagram:&lt;/strong&gt; Menggambarkan struktur statis sistem, kelas-kelas, atribut, metode, dan hubungan antar kelas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sequence Diagram:&lt;/strong&gt; Menggambarkan interaksi antar objek berdasarkan urutan waktu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Activity Diagram:&lt;/strong&gt; Menggambarkan alur kerja aktivitas dalam sistem (mirip flowchart tapi support paralelisme).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="2-sistem-operasi-1"&gt;&lt;strong&gt;2. Sistem Operasi&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Pendekatan ini mendominasi pengembangan aplikasi modern yang membutuhkan antarmuka grafis (GUI) dan respons &lt;em&gt;event-driven&lt;/em&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Windows, macOS, Modern Linux (Distro Desktop):&lt;/strong&gt; Mendukung aplikasi GUI yang kompleks berbasis objek.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Android &amp;amp; iOS:&lt;/strong&gt; Sistem operasi mobile ini sepenuhnya dibangun di atas konsep objek (View, Activity, Controller).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="3-bahasa-pemrograman-1"&gt;&lt;strong&gt;3. Bahasa Pemrograman&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Bahasa yang mendukung konsep &lt;em&gt;Class&lt;/em&gt;, &lt;em&gt;Inheritance&lt;/em&gt; (Pewarisan), &lt;em&gt;Polymorphism&lt;/em&gt;, dan &lt;em&gt;Encapsulation&lt;/em&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Java:&lt;/strong&gt; Sangat populer untuk aplikasi enterprise dan Android.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;C++:&lt;/strong&gt; Pengembangan dari C dengan fitur objek.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;C#:&lt;/strong&gt; Bahasa utama ekosistem Microsoft .NET.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python:&lt;/strong&gt; Mendukung multi-paradigma termasuk OOP yang sangat kuat.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PHP (Modern):&lt;/strong&gt; Kerangka kerja (framework) web modern seperti Laravel menggunakan konsep OOP penuh.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Teknik Pengumpulan Data</title><link>https://hamadah2o2.github.io/noteumc/p/teknik-pengumpulan-data/</link><pubDate>Tue, 18 Nov 2025 10:48:32 +0700</pubDate><guid>https://hamadah2o2.github.io/noteumc/p/teknik-pengumpulan-data/</guid><description>&lt;img src="https://cdn.prod.website-files.com/6100d0111a4ed76bc1b9fd54/63517064ef049512c7657ccc_teknik%20pengumpulan%20data%203.jpg" alt="Featured image of post Teknik Pengumpulan Data" /&gt;&lt;h2 id="teknik-wawancara"&gt;TEKNIK WAWANCARA
+&lt;/h2&gt;&lt;p&gt;Wawancara (&lt;em&gt;interview&lt;/em&gt;) telah diakui sebagai teknik pengumpulan data/fakta yang penting dan banyak dilakukan dalam pengembangan sistem informasi. Wawancara memungkinkan analis sistem sebagai pewawancara (&lt;em&gt;interviewer&lt;/em&gt;) untuk mengumpulkan data secara tatap muka langsung dengan orang yang diwawancarai (&lt;em&gt;interviewee&lt;/em&gt;).&lt;/p&gt;
+&lt;h3 id="mempersiapkan-wawancara"&gt;Mempersiapkan Wawancara
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Aturlah pertemuan dengan orang yang akan diwawancarai terlebih dahulu.&lt;/li&gt;
+&lt;li&gt;Utarakanlah maksud dari wawancara.&lt;/li&gt;
+&lt;li&gt;Aturlah waktu wawancara yang paling tepat supaya tidak mengganggu kerja dari orang yang diwawancarai.&lt;/li&gt;
+&lt;li&gt;Buatlah jadwal wawancara terlebih dahulu, bila wawancara akan dilakukan beberapa kali atau oleh pewawancara yang berbeda dan orang yang diwawancarai juga berbeda.&lt;/li&gt;
+&lt;li&gt;Buatlah suatu panduan wawancara (&lt;em&gt;interview guide&lt;/em&gt;) supaya wawancara dapat berjalan dengan lancar.
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Interview guide&lt;/em&gt; adalah daftar pengecekan (&lt;em&gt;checklist&lt;/em&gt;) dari pertanyaan-pertanyaan yang akan diajukan oleh pewawancara serta penjadwalan waktunya.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="melakukan-wawancara"&gt;Melakukan Wawancara
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Mengenalkan diri terlebih dahulu siapa sebenarnya Anda.&lt;/li&gt;
+&lt;li&gt;Menjelaskan apa tujuan dari wawancara ini dan hubungannya dengan proyek sistem informasi yang sedang dikembangkan.&lt;/li&gt;
+&lt;li&gt;Menjelaskan peranan-peranan yang akan diberikan oleh orang yang diwawancarai dari hasil wawancara ini.&lt;/li&gt;
+&lt;li&gt;Jagalah suasana wawancara tetap santai, tetapi terarah dan menyenangkan.&lt;/li&gt;
+&lt;li&gt;Mintalah pendapat-pendapat atau ide-ide tambahan yang mungkin belum diungkapkan.&lt;/li&gt;
+&lt;li&gt;Pada akhir wawancara, bacakanlah rangkuman-rangkuman dari hasil wawancara dan mintalah kepada yang diwawancarai untuk membetulkan bila ada hal-hal yang tidak sesuai.&lt;/li&gt;
+&lt;li&gt;Ucapkanlah terima kasih bila wawancara telah selesai serta mintalah kesediaan kembali untuk dihubungi atau untuk diadakan wawancara lagi bilamana perlu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="teknik-observasi"&gt;TEKNIK OBSERVASI
+&lt;/h2&gt;&lt;p&gt;Observasi atau pengamatan merupakan salah satu teknik pengumpulan data yang cukup efektif untuk mempelajari suatu sistem.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Definisi:&lt;/strong&gt; Observasi adalah pengamatan langsung suatu kegiatan yang sedang dilakukan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="petunjuk-melakukan-observasi"&gt;Petunjuk melakukan observasi
+&lt;/h3&gt;&lt;p&gt;Untuk melakukan observasi, hal-hal berikut ini harus dilakukan:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Rencanakan&lt;/strong&gt; terlebih dahulu observasi yang akan dilakukan, meliputi:
+&lt;ul&gt;
+&lt;li&gt;apa yang akan diobservasi;&lt;/li&gt;
+&lt;li&gt;dimana letak lokasi observasi;&lt;/li&gt;
+&lt;li&gt;kapan observasi akan dilakukan;&lt;/li&gt;
+&lt;li&gt;siapa yang melaksanakan observasi ini;&lt;/li&gt;
+&lt;li&gt;siapa yang akan diobservasi;&lt;/li&gt;
+&lt;li&gt;bagaimana melaksanakan observasi ini.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Minta ijin terlebih dahulu dari manajer atau pegawai-pegawai yang terlibat.&lt;/li&gt;
+&lt;li&gt;Bertindaklah Dengan &lt;strong&gt;rendah hati&lt;/strong&gt; (&lt;em&gt;low profile&lt;/em&gt;).&lt;/li&gt;
+&lt;li&gt;Lengkapilah dengan &lt;strong&gt;catatan&lt;/strong&gt; selama observasi berlangsung.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kaji-ulanglah&lt;/strong&gt; hasil observasi dengan individu-individu yang terlibat.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="teknik-daftar-pertanyaan"&gt;TEKNIK DAFTAR PERTANYAAN
+&lt;/h2&gt;&lt;p&gt;Adalah suatu daftar yang berisi dengan pertanyaan-pertanyaan untuk tujuan khusus yang memungkinkan analis sistem untuk mengumpulkan data dan pendapat dari responden-responden yang dipilih. Daftar pertanyaan ini kemudian akan dikirimkan kepada responden yang akan mengisinya sesuai dengan pendapat mereka. Penggunaan daftar pertanyaan ini mendapat banyak kritikan karena diragukan hasilnya. Akan tetapi untuk mengumpulkan data dari jumlah sumber yang banyak, cara ini lebih efisien dibandingkan teknik pengumpulan data yang lain.&lt;/p&gt;
+&lt;h3 id="tipe-dari-daftar-pertanyaan"&gt;Tipe dari daftar pertanyaan
+&lt;/h3&gt;&lt;p&gt;Ada dua macam format dari daftar pertanyaan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Daftar Pertanyaan Format Bebas&lt;/strong&gt; (&lt;em&gt;Free Format&lt;/em&gt;): Berisi dengan pertanyaan-pertanyaan yang harus diisi oleh responden ditempat yang sudah disediakan.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Contoh:&lt;/em&gt; Bagaimanakah strategi yang digunakan oleh Perusahaan Anda dalam memperkenalkan produk baru perusahaan Anda tsb?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Format Pasti&lt;/strong&gt; (&lt;em&gt;Fixed Format&lt;/em&gt;): Berisi dengan pertanyaan-pertanyaan yang jawabannya sudah pasti dengan memilih jawaban yang tersedia. Hasil dari daftar pertanyaan tipe ini akan lebih mudah untuk ditabulasi dan diisi oleh responden. Tipe ini mempunyai beberapa bentuk pertanyaan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Check-off questions&lt;/em&gt;: Responden dapat memeriksa (&lt;em&gt;check-off&lt;/em&gt;) jawaban-jawaban yang sesuai.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Yes/No questions&lt;/em&gt;: Responden memungkinkan untuk menjawab ‘ya’ atau ‘tidak’.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Opinion/Choice questions&lt;/em&gt;: Responden memungkinkan untuk memberikan pendapatnya.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="petunjuk-membuat-daftar-pertanyaan"&gt;Petunjuk Membuat Daftar Pertanyaan
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Rencanakanlah terlebih dahulu fakta-fakta atau opini-opini apa saja yang ingin dikumpulkan.&lt;/li&gt;
+&lt;li&gt;Berdasarkan fakta-fakta atau opini-opini tersebut, tentukanlah tipe dari daftar pertanyaan yang paling tepat untuk masing-masing fakta atau opini tersebut.&lt;/li&gt;
+&lt;li&gt;Tuliskan pertanyaan-pertanyaan yang akan diajukan.&lt;/li&gt;
+&lt;li&gt;Uji daftar pertanyaan ini kepada responden yang kecil terlebih dahulu.&lt;/li&gt;
+&lt;li&gt;Perbanyaklah dan distribusikanlah daftar pertanyaan yang sudah dianggap baik ini.&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>Analisis Sistem</title><link>https://hamadah2o2.github.io/noteumc/p/analisis-sistem/</link><pubDate>Tue, 11 Nov 2025 11:39:04 +0700</pubDate><guid>https://hamadah2o2.github.io/noteumc/p/analisis-sistem/</guid><description>&lt;img src="https://hamadah2o2.github.io/noteumc/p/analisis-sistem/cover.jpg" alt="Featured image of post Analisis Sistem" /&gt;&lt;h2 id="analisis-sistem"&gt;ANALISIS SISTEM
+&lt;/h2&gt;&lt;h3 id="definisi-analisa-sistem"&gt;Definisi Analisa Sistem
+&lt;/h3&gt;&lt;h3 id="tahapan-analisa-sistem-identify-understand-analisis--report"&gt;Tahapan Analisa Sistem: Identify, Understand, Analisis &amp;amp; Report
+&lt;/h3&gt;&lt;p&gt;Langkah-langkahnya:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Identify&lt;/strong&gt;: mengidentifikasi masalah&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Understand&lt;/strong&gt;: memahami kerja dari sistem yang ada&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analyze&lt;/strong&gt;: menganalisis sistem&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Report&lt;/strong&gt;: membuat laporan hasil analisis&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id="mengidentifikasi-masalah"&gt;Mengidentifikasi Masalah
+&lt;/h4&gt;&lt;p&gt;Ada tiga langkah yang harus dilakukan di dalam tahapan ini yaitu:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Mengidentifikasi Penyebab Masalah&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pada tahap ini kita harus dapat mengetahui apa yang menyebabkan masalah terjadi&lt;/li&gt;
+&lt;li&gt;Contoh: terjadi penurunan omzet penjualan karena banyak konsumen yang komplain terhadap divisi penjualan tersebut&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2. Mengidentifikasi Titik Keputusan&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setelah penyebab terjadinya masalah dapat ditentukan, selanjutnya juga harus ditentukan titik keputusan penyebab masalah tersebut&lt;/li&gt;
+&lt;li&gt;Contoh: penyebab masalah konsumen komplain karena pelayanan yang kurang baik terhadap konsumen. Titik keputusan yang mengakibatkan terjadinya sebab masalah ini adalah penanganan order langganan di bagian order penjualan yang kurang baik kepada pelanggan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;3. Mengidentifikasi Personil-Personil Kunci&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setelah titik-titik keputusan penyebab masalah dapat diidentifikasi beserta lokasi terjadinya, maka selanjutnya yang perlu diidentifikasi adalah personil-personil kunci baik yang langsung maupun tidak langsung dapat menyebabkan terjadinya masalah tersebut&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="memahami-kerja-dari-sistem-yang-ada"&gt;Memahami Kerja dari Sistem yang Ada
+&lt;/h4&gt;&lt;p&gt;Dapat dilakukan dengan mempelajari secara terinci bagaimana sistem yang ada beroperasi. Untuk mempelajari operasi dari sistem ini diperlukan data yang dapat diperoleh dengan cara melakukan penelitian:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Menentukan jenis penelitian&lt;/li&gt;
+&lt;li&gt;Merencanakan jadwal penelitian&lt;/li&gt;
+&lt;li&gt;Membuat penugasan penelitian&lt;/li&gt;
+&lt;li&gt;Membuat agenda wawancara&lt;/li&gt;
+&lt;li&gt;Mengumpulkan hasil penelitian&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id="menganalisis-hasil-penelitian"&gt;Menganalisis Hasil Penelitian
+&lt;/h4&gt;&lt;p&gt;Langkah ini dilakukan berdasarkan data yang telah diperoleh dari hasil penelitian yang telah dilakukan. Kita dapat menganalisis:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Kelemahan dari sistem lama tersebut&lt;/li&gt;
+&lt;li&gt;Kebutuhan data dan informasi bagi pemakai sistem dan pihak manajemen&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="membuat-laporan-hasil-analisis"&gt;Membuat Laporan Hasil Analisis
+&lt;/h3&gt;&lt;p&gt;Isinya adalah:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Alasan melakukan analisis sistem&lt;/li&gt;
+&lt;li&gt;Menguraikan permasalahan-permasalahan yang terjadi pada sistem lama&lt;/li&gt;
+&lt;li&gt;Mengidentifikasi penyebab masalah&lt;/li&gt;
+&lt;li&gt;Kesimpulan analisis&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="tugas-sistem-informasi"&gt;Tugas Sistem Informasi
+&lt;/h2&gt;&lt;h3 id="soal"&gt;Soal
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Sebutkan permasalahan-permasalahan yang terjadi pada Universitas Muhammadiyah Cirebon!&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Sebutkan kebutuhan-kebutuhan pada perancangan:&lt;/strong&gt;
+a. Sistem Informasi Akademik yang ada di UMC
+b. Sistem Informasi Pelayanan Pasien pada RS. Permata Kota Cirebon
+c. Sistem Informasi Penjualan pada Toserba Yogya Siliwangi Kota Cirebon&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Dalam memahami kerja dari sebuah sistem, anda harus melakukan penelitian. Pilihlah satu perancangan sistem yang ada di dalam soal no 2. Kemudian anda tentukan langkah-langkahnya di dalam penelitian tersebut!&lt;/strong&gt;
+a. Menentukan jenis penelitian
+b. Merencanakan jadwal penelitian : 1-20 Desember 2022
+c. Membuat penugasan penelitian
+d. Membuat agenda wawancara
+e. Mengumpulkan hasil penelitian : uraikan bagaimana Anda mengadakan penelitian&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="jawaban"&gt;Jawaban
+&lt;/h3&gt;&lt;h4 id="permasalahan-permasalahan-yang-terjadi-pada-universitas-muhammadiyah-cirebon"&gt;Permasalahan-permasalahan yang Terjadi pada Universitas Muhammadiyah Cirebon
+&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Permasalahan Administratif:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Proses pendaftaran mahasiswa baru yang masih manual dan berbelit-belit&lt;/li&gt;
+&lt;li&gt;Sistem penginputan nilai oleh dosen yang tidak terintegrasi&lt;/li&gt;
+&lt;li&gt;Kesulitan dalam pembuatan jadwal kuliah yang bentrok&lt;/li&gt;
+&lt;li&gt;Lambatnya proses pengurusan surat keterangan dan transkrip nilai&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Permasalahan Akademik:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kurangnya monitoring terhadap perkembangan akademik mahasiswa&lt;/li&gt;
+&lt;li&gt;Sistem perwalian yang tidak efektif&lt;/li&gt;
+&lt;li&gt;Kesulitan dalam pengecekan kelengkapan administrasi akademik&lt;/li&gt;
+&lt;li&gt;Minimnya akses informasi akademik bagi orang tua mahasiswa&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Permasalahan Teknologi:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sistem informasi yang terpisah-pisah (tidak terintegrasi)&lt;/li&gt;
+&lt;li&gt;Server yang sering down saat peak time (daftar ulang, KRS)&lt;/li&gt;
+&lt;li&gt;Interface sistem yang kurang user friendly&lt;/li&gt;
+&lt;li&gt;Keamanan data yang masih rentan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="kebutuhan-kebutuhan-pada-perancangan-sistem"&gt;Kebutuhan-kebutuhan pada Perancangan Sistem
+&lt;/h4&gt;&lt;h5 id="sistem-informasi-akademik-yang-ada-di-umc"&gt;Sistem Informasi Akademik yang ada di UMC
+&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;Kebutuhan Fungsional:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Modul pendaftaran mahasiswa baru online&lt;/li&gt;
+&lt;li&gt;Sistem KRS (Kartu Rencana Studi) online&lt;/li&gt;
+&lt;li&gt;Input nilai oleh dosen&lt;/li&gt;
+&lt;li&gt;Monitoring kehadiran mahasiswa&lt;/li&gt;
+&lt;li&gt;Sistem perwalian digital&lt;/li&gt;
+&lt;li&gt;Pembuatan jadwal otomatis&lt;/li&gt;
+&lt;li&gt;Laporan akademik real-time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Kebutuhan Non-Fungsional:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Responsive design (dapat diakses via mobile)&lt;/li&gt;
+&lt;li&gt;Keamanan data dengan enkripsi&lt;/li&gt;
+&lt;li&gt;Backup data otomatis&lt;/li&gt;
+&lt;li&gt;Performance yang cepat (loading &amp;lt; 3 detik)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id="sistem-informasi-pelayanan-pasien-pada-rs-permata-kota-cirebon"&gt;Sistem Informasi Pelayanan Pasien pada RS. Permata Kota Cirebon
+&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;Kebutuhan Fungsional:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pendaftaran pasien online&lt;/li&gt;
+&lt;li&gt;Rekam medis elektronik&lt;/li&gt;
+&lt;li&gt;Jadwal dokter dan reservasi&lt;/li&gt;
+&lt;li&gt;Billing system terintegrasi&lt;/li&gt;
+&lt;li&gt;Laporan kesehatan pasien&lt;/li&gt;
+&lt;li&gt;Manajemen inventori obat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Kebutuhan Non-Fungsional:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;High availability (24/7)&lt;/li&gt;
+&lt;li&gt;Data privacy dan security&lt;/li&gt;
+&lt;li&gt;Integrasi dengan BPJS&lt;/li&gt;
+&lt;li&gt;User interface yang mudah digunakan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id="sistem-informasi-penjualan-pada-toserba-yogya-siliwangi-kota-cirebon"&gt;Sistem Informasi Penjualan pada Toserba Yogya Siliwangi Kota Cirebon
+&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;Kebutuhan Fungsional:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Point of Sale (POS) system&lt;/li&gt;
+&lt;li&gt;Manajemen inventori&lt;/li&gt;
+&lt;li&gt;Laporan penjualan harian/mingguan/bulanan&lt;/li&gt;
+&lt;li&gt;Sistem loyalty customer&lt;/li&gt;
+&lt;li&gt;Pembelian dan pemesanan barang&lt;/li&gt;
+&lt;li&gt;Analisis data penjualan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Kebutuhan Non-Fungsional:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dapat handle transaksi concurrent&lt;/li&gt;
+&lt;li&gt;Sync data real-time antar cabang&lt;/li&gt;
+&lt;li&gt;Backup data otomatis&lt;/li&gt;
+&lt;li&gt;Interface yang user friendly untuk kasir&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="langkah-langkah-penelitian-untuk-sistem-informasi-akademik-umc"&gt;Langkah-langkah Penelitian untuk Sistem Informasi Akademik UMC
+&lt;/h4&gt;&lt;h5 id="menentukan-jenis-penelitian"&gt;Menentukan Jenis Penelitian
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Penelitian Kualitatif&lt;/strong&gt; dengan pendekatan studi kasus&lt;/li&gt;
+&lt;li&gt;Metode pengumpulan data: wawancara, observasi, dan studi dokumentasi&lt;/li&gt;
+&lt;li&gt;Fokus pada kebutuhan pengguna (user-centered design)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id="merencanakan-jadwal-penelitian-1-20-desember-2022"&gt;Merencanakan Jadwal Penelitian: 1-20 Desember 2022
+&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;Minggu 1 (1-7 Desember):&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Observasi sistem existing&lt;/li&gt;
+&lt;li&gt;Wawancara dengan admin akademik&lt;/li&gt;
+&lt;li&gt;Studi dokumentasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Minggu 2 (8-14 Desember):&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wawancara dengan dosen dan mahasiswa&lt;/li&gt;
+&lt;li&gt;Analisis kebutuhan sistem&lt;/li&gt;
+&lt;li&gt;Pembuatan use case diagram&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Minggu 3 (15-20 Desember):&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Validasi kebutuhan&lt;/li&gt;
+&lt;li&gt;Analisis gap sistem&lt;/li&gt;
+&lt;li&gt;Penyusunan laporan hasil penelitian&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id="membuat-penugasan-penelitian"&gt;Membuat Penugasan Penelitian
+&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;Tim Peneliti:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Project Leader (1 orang)&lt;/li&gt;
+&lt;li&gt;System Analyst (2 orang)&lt;/li&gt;
+&lt;li&gt;Data Collector (3 orang)&lt;/li&gt;
+&lt;li&gt;Technical Writer (1 orang)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Pembagian Tugas:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Project Leader: koordinasi tim dan komunikasi dengan stakeholder&lt;/li&gt;
+&lt;li&gt;System Analyst: analisis kebutuhan dan pembuatan dokumentasi&lt;/li&gt;
+&lt;li&gt;Data Collector: melakukan wawancara dan observasi&lt;/li&gt;
+&lt;li&gt;Technical Writer: menyusun laporan akhir&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id="membuat-agenda-wawancara"&gt;Membuat Agenda Wawancara
+&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;Narasumber dan Jadwal:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;5 Desember 2022 (09.00-11.00): Kepala Bagian Akademik&lt;/li&gt;
+&lt;li&gt;6 Desember 2022 (10.00-12.00): Admin Prodi&lt;/li&gt;
+&lt;li&gt;7 Desember 2022 (13.00-15.00): Dosen (3 orang)&lt;/li&gt;
+&lt;li&gt;8 Desember 2022 (14.00-16.00): Mahasiswa (5 orang)&lt;/li&gt;
+&lt;li&gt;9 Desember 2022 (09.00-11.00): Bagian IT&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Pertanyaan Wawancara:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apa kendala yang dihadapi dengan sistem saat ini?&lt;/li&gt;
+&lt;li&gt;Fitur apa yang paling dibutuhkan?&lt;/li&gt;
+&lt;li&gt;Bagaimana alur kerja yang ideal menurut Anda?&lt;/li&gt;
+&lt;li&gt;Apa harapan untuk sistem yang baru?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id="mengumpulkan-hasil-penelitian"&gt;Mengumpulkan Hasil Penelitian
+&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;Metode Pengumpulan Data:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Observasi Langsung:&lt;/strong&gt; Mengamati proses kerja di bagian akademik&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wawancara Mendalam:&lt;/strong&gt; Dengan seluruh stakeholder terkait&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Studi Dokumentasi:&lt;/strong&gt; Analisis form, laporan, dan dokumen existing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kuesioner:&lt;/strong&gt; Survei kebutuhan kepada 100 responden (dosen &amp;amp; mahasiswa)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Teknik Analisis Data:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Content analysis untuk data kualitatif&lt;/li&gt;
+&lt;li&gt;Statistical analysis untuk data kuantitatif&lt;/li&gt;
+&lt;li&gt;SWOT analysis untuk evaluasi sistem existing&lt;/li&gt;
+&lt;li&gt;Gap analysis antara kebutuhan dan sistem saat ini&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Output yang Dihasilkan:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dokumen kebutuhan pengguna (user requirements)&lt;/li&gt;
+&lt;li&gt;Use case diagram dan spesifikasi&lt;/li&gt;
+&lt;li&gt;Analisis gap sistem&lt;/li&gt;
+&lt;li&gt;Rekomendasi pengembangan sistem&lt;/li&gt;
+&lt;li&gt;Laporan hasil penelitian lengkap&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Kebijakan Dan Perencanaan Sistem</title><link>https://hamadah2o2.github.io/noteumc/p/kebijakan-dan-perencanaan-sistem/</link><pubDate>Tue, 11 Nov 2025 11:31:59 +0700</pubDate><guid>https://hamadah2o2.github.io/noteumc/p/kebijakan-dan-perencanaan-sistem/</guid><description>&lt;img src="https://hamadah2o2.github.io/noteumc/p/kebijakan-dan-perencanaan-sistem/cover.jpg" alt="Featured image of post Kebijakan Dan Perencanaan Sistem" /&gt;&lt;h2 id="kebijakan-dan-perencanaan-sistem"&gt;Kebijakan dan Perencanaan Sistem
+&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Merencanakan proyek-proyek sistem&lt;/th&gt;
+&lt;th&gt;Mempersiapkan proyek-proyek sistem yang akan dikembangkan&lt;/th&gt;
+&lt;th&gt;Mendefinisikan proyek-proyek sistem dikembangkan&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Proses perencanaan sistem&lt;/strong&gt; dibagi dalam 3 proses utama yaitu:&lt;/p&gt;
+&lt;h3 id="merencanakan-proyek-proyek-sistem"&gt;Merencanakan Proyek-proyek Sistem
+&lt;/h3&gt;&lt;p&gt;Meliputi:&lt;/p&gt;
+&lt;p&gt;a. &lt;strong&gt;Mengkaji tujuan, perencanaan strategi dan taktik perusahaan&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Perencanaan sistem harus sejalan dengan tujuan perusahaan&lt;/li&gt;
+&lt;li&gt;Perencanaan sistem harus diarahkan untuk dapat merencanakan sistem informasi yang dapat mendukung kegiatan organisasi secara keseluruhan sehingga tujuan perusahaan akan tercapai&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;b. &lt;strong&gt;Mengidentifikasi proyek-proyek sistem&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Menentukan proyek-proyek sistem informasi yang dibutuhkan dalam suatu organisasi&lt;/li&gt;
+&lt;li&gt;Contoh: Dalam perusahaan bisnis proyek-proyek sistem informasi dapat berupa sistem informasi untuk:
+&lt;ul&gt;
+&lt;li&gt;Pengendalian penjualan dan pemasaran&lt;/li&gt;
+&lt;li&gt;Pengendalian distribusi&lt;/li&gt;
+&lt;li&gt;Pengendalian produksi&lt;/li&gt;
+&lt;li&gt;Pengendalian keuangan&lt;/li&gt;
+&lt;li&gt;Pengendalian persediaan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;c. &lt;strong&gt;Menetapkan sasaran proyek-proyek sistem&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sasaran ini merupakan apa yang ingin dicapai oleh masing-masing proyek sistem&lt;/li&gt;
+&lt;li&gt;Contoh: Sistem informasi penjualan memiliki sasaran:
+&lt;ul&gt;
+&lt;li&gt;Memberikan pelayanan order kepada pelanggan dengan lebih baik&lt;/li&gt;
+&lt;li&gt;Meningkatkan volume penjualan&lt;/li&gt;
+&lt;li&gt;Menyediakan laporan penjualan yang tepat waktu kepada manajer marketing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;d. &lt;strong&gt;Menetapkan kendala proyek-proyek sistem&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ada 3 faktor kendala:
+&lt;ul&gt;
+&lt;li&gt;Masalah dana&lt;/li&gt;
+&lt;li&gt;Masalah waktu&lt;/li&gt;
+&lt;li&gt;Mengenai batasan peraturan yang berlaku pada perusahaan tersebut&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;e. &lt;strong&gt;Menentukan prioritas proyek-proyek sistem&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Yaitu menentukan proyek-proyek sistem mana yang perlu dikembangkan terlebih dahulu&lt;/li&gt;
+&lt;li&gt;Proyek-proyek sistem yang sangat diperlukan dan mendesak harus diprioritaskan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;f. &lt;strong&gt;Membuat laporan perencanaan sistem&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Isi dari laporan perencanaan sistem tersebut adalah:
+&lt;ul&gt;
+&lt;li&gt;Latar belakang organisasi&lt;/li&gt;
+&lt;li&gt;Proyek sistem informasi yang direncanakan&lt;/li&gt;
+&lt;li&gt;Sasaran pengembangan sistem informasi&lt;/li&gt;
+&lt;li&gt;Kendala di dalam pengembangan sistem informasi&lt;/li&gt;
+&lt;li&gt;Menentukan prioritas-prioritas proyek sistem informasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;g. &lt;strong&gt;Meminta persetujuan manajemen&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="mempersiapkan-proyek-proyek-sistem-yang-akan-dikembangkan"&gt;Mempersiapkan Proyek-proyek Sistem yang Akan Dikembangkan
+&lt;/h3&gt;&lt;p&gt;Meliputi:&lt;/p&gt;
+&lt;p&gt;a. &lt;strong&gt;Menunjuk team analis&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;b. &lt;strong&gt;Mengumumkan proyek pengembangan sistem&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="mendefinisikan-proyek-proyek-dikembangkan"&gt;Mendefinisikan Proyek-proyek Dikembangkan
+&lt;/h3&gt;&lt;p&gt;Meliputi:&lt;/p&gt;
+&lt;p&gt;a. &lt;strong&gt;Melakukan studi kelayakan&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Studi kelayakan&lt;/strong&gt;: Suatu studi yang akan digunakan untuk menentukan apakah pengembangan proyek sistem layak diteruskan atau tidak&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;b. &lt;strong&gt;Menilai kelayakan proyek sistem&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Kelayakan teknik&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Ketersediaan teknologi yang digunakan&lt;/li&gt;
+&lt;li&gt;Ketersediaan staf ahli di dalam mengoperasionalkan teknologi yang digunakan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kelayakan operasi&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Kemampuan personil dalam mengoperasikan sistem informasi yang dibuat&lt;/li&gt;
+&lt;li&gt;Kemampuan dari sistem informasi untuk menghasilkan informasi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kelayakan jadwal&lt;/strong&gt;: Apakah sistem informasi yang dikembangkan sesuai dengan jadwal yang telah ditentukan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kelayakan ekonomi&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Besarnya dana yang diperlukan untuk pengembangan sistem&lt;/li&gt;
+&lt;li&gt;Manfaat yang diperoleh oleh sistem informasi dibandingkan dengan biaya perkembangannya&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kelayakan hukum&lt;/strong&gt;: Apakah sistem yang akan dikembangkan tidak menyimpang dari hukum yang berlaku&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;c. &lt;strong&gt;Membuat usulan proyek sistem&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;d. &lt;strong&gt;Meminta persetujuan manajemen&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="pembahasan-soal-bab-4-dan-bab-5"&gt;Pembahasan Soal Bab 4 dan Bab 5
+&lt;/h2&gt;&lt;h3 id="soal-soal"&gt;Soal-soal:
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Sebutkan contoh-contoh jurnal dipublikasi tahun 2016 &amp;ndash; sekarang, dan pembahasannya pada tema-tema penelitian yang bisa digunakan (1 tema cukup membahas 1 jurnal):&lt;/strong&gt;
+a. Sistem Informasi
+b. Sistem Pendukung Keputusan (SPK)
+c. Sistem Pakar
+d. Sistem Game technology
+e. Sistem Multimedia
+f. Sistem Jaringan&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Berdasarkan digit terakhir NIM:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;NIM ganjil&lt;/strong&gt;: Uraikan komponen-komponen yang dibutuhkan pada perancangan sistem informasi akademik berbasis web&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NIM genap&lt;/strong&gt;: Uraikan komponen-komponen yang dibutuhkan pada perancangan sistem informasi penjualan produk berbasis android&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Jelaskan apa yang dimaksud dengan Proyek Sistem!&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;NIM ganjil&lt;/strong&gt;: Sebutkan proyek-proyek sistem yang bisa dibangun pada sebuah Perguruan tinggi (minimal 10 proyek sistem)!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NIM genap&lt;/strong&gt;: Sebutkan proyek-proyek sistem yang bisa dibangun pada sebuah perusahaan!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Jelaskan apa yang dimaksud dengan Analisa Sistem!&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Serta sebutkan langkah-langkah yang harus diperhatikan di dalam Analisa Sistem tersebut!&lt;/li&gt;
+&lt;li&gt;Dan sebutkan pula isi laporan hasil analisa!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="jawaban"&gt;Jawaban
+&lt;/h3&gt;&lt;h4 id="contoh-jurnal-dan-tema-penelitian-2016---sekarang"&gt;Contoh Jurnal dan Tema Penelitian (2016 - Sekarang)
+&lt;/h4&gt;&lt;p&gt;Berikut adalah contoh jurnal ilmiah terakreditasi nasional yang mempublikasikan penelitian pada tema-tema yang diminta. Meskipun detail artikel spesifik dari tahun 2016 terbatas, jurnal-jurnal ini secara konsisten menerbitkan artikel di bidang tersebut hingga sekarang (2025).&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Tema Penelitian&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Nama Jurnal&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Penerbit&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Tingkat Akreditasi (SINTA)&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Contoh Topik Penelitian yang Relevan&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;a. Sistem Informasi&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Sinkron : Jurnal dan Penelitian Teknik Informatika&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Politeknik Ganesha Medan&lt;/td&gt;
+&lt;td style="text-align: left"&gt;SINTA 3&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Analisis penerimaan pengguna aplikasi mobile, arsitektur enterprise untuk industri, implementasi sistem rekam medis berbasis cloud.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;b. Sistem Pendukung Keputusan (SPK)&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Jurnal PASTI&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Universitas Mercu Buana&lt;/td&gt;
+&lt;td style="text-align: left"&gt;SINTA 4&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Optimasi pemilihan supplier dengan metode hybrid BWM dan AHP, sistem klasifikasi risiko dengan berbagai pendekatan MCDM.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;c. Sistem Pakar&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Sinkron : Jurnal dan Penelitian Teknik Informatika&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Politeknik Ganesha Medan&lt;/td&gt;
+&lt;td style="text-align: left"&gt;SINTA 3&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Chatbot dengan analisis sentimen untuk preferensi kuliner, sistem identifikasi kualitas biji kopi, dan klasifikasi penyakit tanaman.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;d. Sistem Game Technology&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Sinkron : Jurnal dan Penelitian Teknik Informatika&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Politeknik Ganesha Medan&lt;/td&gt;
+&lt;td style="text-align: left"&gt;SINTA 3&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Analisis sentimen pada review game (contoh: Roblox) untuk mengukur pengalaman pengguna.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;e. Sistem Multimedia&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Sinkron : Jurnal dan Penelitian Teknik Informatika&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Politeknik Ganesha Medan&lt;/td&gt;
+&lt;td style="text-align: left"&gt;SINTA 3&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Evaluasi usability dan User Experience (UX) pada aplikasi pendidikan (Ruangguru) menggunakan SUS dan UEQ.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;f. Sistem Jaringan&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Sinkron : Jurnal dan Penelitian Teknik Informatika&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Politeknik Ganesha Medan&lt;/td&gt;
+&lt;td style="text-align: left"&gt;SINTA 3&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Deteksi risiko serangan siber dengan analisis pola pada log traffic jaringan.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id="komponen-perancangan-sistem-informasi-sistem-informasi-akademik-berbasis-web"&gt;Komponen Perancangan Sistem Informasi (Sistem Informasi Akademik Berbasis Web)
+&lt;/h4&gt;&lt;p&gt;Komponen-komponen yang dibutuhkan dalam perancangan Sistem Informasi Akademik (SIAKAD) berbasis web adalah sebagai berikut:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Kelompok Komponen&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Komponen Spesifik &amp;amp; Fungsinya&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Komponen Perangkat Keras (Hardware)&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Server&lt;/strong&gt;: Menyimpan data dan aplikasi, melayani permintaan client. &lt;br&gt; &lt;strong&gt;Client/Workstation&lt;/strong&gt;: Komputer/laptop yang digunakan oleh admin, dosen, dan mahasiswa untuk mengakses sistem. &lt;br&gt; &lt;strong&gt;Jaringan &amp;amp; Perangkatnya&lt;/strong&gt;: Mendukung konektivitas antara server dan client (LAN/WAN, router, switch).&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Komponen Perangkat Lunak (Software)&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Sistem Operasi Server&lt;/strong&gt; (e.g., Linux, Windows Server). &lt;br&gt; &lt;strong&gt;Web Server&lt;/strong&gt; (e.g., Apache, Nginx). &lt;br&gt; &lt;strong&gt;Bahasa Pemrograman&lt;/strong&gt; (e.g., PHP, Python, Java). &lt;br&gt; &lt;strong&gt;Database Management System (DBMS)&lt;/strong&gt; (e.g., MySQL, PostgreSQL). &lt;br&gt; &lt;strong&gt;Browser Web&lt;/strong&gt; (e.g., Chrome, Firefox) di sisi client.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Komponen Data&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Data Master&lt;/strong&gt;: Data prodi, mata kuliah, dosen, mahasiswa, ruangan. &lt;br&gt; &lt;strong&gt;Data Transaksional&lt;/strong&gt;: Data KRS, nilai, kehadiran, jadwal kuliah. &lt;br&gt; &lt;strong&gt;Data Laporan&lt;/strong&gt;: Transkrip, KHS, laporan kinerja akademik.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Komponen Prosedur&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Prosedur Operasional&lt;/strong&gt;: Panduan penggunaan sistem untuk semua pengguna (admin, dosen, mahasiswa). &lt;br&gt; &lt;strong&gt;Prosedur Backup &amp;amp; Recovery&lt;/strong&gt;: Untuk memastikan keamanan dan ketersediaan data.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Komponen Manusia (Brainware)&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Administrator&lt;/strong&gt;: Mengelola sistem dan hak akses pengguna. &lt;br&gt; &lt;strong&gt;Dosen&lt;/strong&gt;: Menginput nilai, mengisi daftar hadir, melihat jadwal. &lt;br&gt; &lt;strong&gt;Mahasiswa&lt;/strong&gt;: Melakukan KRS, melihat nilai, mencetak KHS. &lt;br&gt; &lt;strong&gt;Staf Akademik&lt;/strong&gt;: Mengelola data mahasiswa, mata kuliah, dan jadwal.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id="proyek-sistem-dan-contoh-penerapannya"&gt;Proyek Sistem dan Contoh Penerapannya
+&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Pengertian Proyek Sistem&lt;/strong&gt;
+Proyek sistem adalah suatu usaha sementara yang dilakukan untuk menciptakan, mengembangkan, atau memperbaiki suatu sistem (baik sistem informasi, prosedur, atau teknologi) dengan tujuan tertentu, batasan waktu, dan alokasi sumber daya. Proyek ini biasanya melibatkan tahapan-tahapan seperti perencanaan, analisis, desain, implementasi, dan pengujian.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contoh Proyek Sistem yang Dapat Dibangun di sebuah Perguruan Tinggi:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Sistem Informasi Akademik Terintegrasi:&lt;/strong&gt; Mengelola data mahasiswa, KRS, nilai, transkrip, dan jadwal kuliah secara online.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sistem E-Learning/LMS (Learning Management System):&lt;/strong&gt; Platform pembelajaran daring untuk dosen dan mahasiswa (materi, quiz, tugas, forum diskusi).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sistem Perpustakaan Digital:&lt;/strong&gt; Katalog online, peminjaman dan pengembalian buku digital, manajemen koleksi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sistem Informasi Kemahasiswaan:&lt;/strong&gt; Mengelola kegiatan UKM, prestasi, beasiswa, dan alumni.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sistem Penjaminan Mutu Internal (SPMI):&lt;/strong&gt; Memantau dan mengevaluasi kualitas pendidikan sesuai standar BAN-PT.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sistem Keuangan dan Kepegawaian:&lt;/strong&gt; Mengelola gaji dosen dan staf, anggaran fakultas, dan pembayaran UKT mahasiswa.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sistem Penerimaan Mahasiswa Baru (PMB) Online:&lt;/strong&gt; Pendaftaran, seleksi, pengumuman, dan daftar ulang secara digital.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sistem Manajemen Riset dan Pengabdian Masyarakat:&lt;/strong&gt; Mengelola proposal, monitoring, dan laporan penelitian serta PkM dosen.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sistem Inventory dan Aset:&lt;/strong&gt; Mendata dan memantau barang inventaris kampus, laboratorium, dan fasilitas lainnya.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sistem Informasi Perpustakaan:&lt;/strong&gt; Untuk mengelola katalog buku, transaksi peminjaman, dan keanggotaan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sistem Parkir dan Keamanan Kampus:&lt;/strong&gt; Mengelola akses kendaraan, monitoring CCTV, dan pos keamanan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scheduler Ruangan Otomatis:&lt;/strong&gt; Memanajemen penggunaan ruang kuliah, laboratorium, dan auditorium.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h4 id="analisa-sistem"&gt;Analisa Sistem
+&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Pengertian Analisa Sistem&lt;/strong&gt;
+Analisa sistem adalah &lt;strong&gt;teknik pemecahan masalah yang menguraikan suatu sistem menjadi komponen-komponen pembentuknya&lt;/strong&gt; dengan tujuan mempelajari dan mengevaluasi kinerja komponen-komponen tersebut, serta interaksinya untuk mencapai tujuan sistem . Menurut Yogiyanto (1995), analisis sistem informasi adalah proses penguraian sistem untuk mengidentifikasi dan mengevaluasi permasalahan, hambatan, serta kebutuhan yang diharapkan sehingga dapat diusulkan perbaikan .&lt;/p&gt;
+&lt;p&gt;**Langkah-Langkah dalam Analisa Sistem **&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Identify (Identifikasi Masalah):&lt;/strong&gt; Tahap mengenali dan mendefinisikan permasalahan yang menjadi penyebab perlunya analisis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Understand (Memahami Sistem yang Ada):&lt;/strong&gt; Mempelajari secara detail bagaimana sistem yang sedang berjalan beroperasi.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analyze (Menganalisis):&lt;/strong&gt; Menganalisis hasil penelitian untuk menemukan kelemahan sistem lama dan menentukan kebutuhan sistem baru.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Report (Melaporkan Hasil):&lt;/strong&gt; Membuat dan menyampaikan laporan hasil analisis beserta rekomendasi kepada pihak manajemen.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;**Isi Laporan Hasil Analisa **&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Alasan Dilakukannya Analisis Sistem:&lt;/strong&gt; Latar belakang dan tujuan dari studi analisis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Uraian Permasalahan:&lt;/strong&gt; Deskripsi detail tentang masalah-masalah yang ditemukan pada sistem lama.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Identifikasi Penyebab Masalah:&lt;/strong&gt; Analisis akar penyebab dari setiap permasalahan yang diuraikan.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hasil Analisis &amp;amp; Kesimpulan:&lt;/strong&gt; Ringkasan temuan dan kesimpulan dari proses analisis, yang menjadi dasar untuk usulan perbaikan atau pengembangan sistem baru.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="analisa-dan-perancangan-sistem-informasi-rekam-medis-pada-rumah-sakit-permata-kabupaten-cirebon-berbasis-web"&gt;Analisa Dan Perancangan Sistem Informasi Rekam Medis pada Rumah Sakit Permata Kabupaten Cirebon berbasis Web
+&lt;/h2&gt;&lt;h2 id="sistem-informasi-pengelolaan-parkir-di-kampus-umc"&gt;Sistem Informasi Pengelolaan Parkir di Kampus UMC
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Identify&lt;/strong&gt;: masalahnya terjadi kehilangan kendaraan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Understand&lt;/strong&gt;: penelitian&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analisis Hasil penelitian&lt;/strong&gt;: kebutuhan sistem, kebutuhan informasi, kebutuhan teknologi dll&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Membuat laporan hasil analisa&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>Tinjauan Umum Pengembangan Sistem</title><link>https://hamadah2o2.github.io/noteumc/p/tinjauan-umum-pengembangan-sistem/</link><pubDate>Tue, 11 Nov 2025 11:11:21 +0700</pubDate><guid>https://hamadah2o2.github.io/noteumc/p/tinjauan-umum-pengembangan-sistem/</guid><description>&lt;img src="https://hamadah2o2.github.io/noteumc/p/tinjauan-umum-pengembangan-sistem/cover.jpg" alt="Featured image of post Tinjauan Umum Pengembangan Sistem" /&gt;&lt;h1 id="tinjauan-umum-pengembangan-sistem"&gt;Tinjauan Umum Pengembangan Sistem
+&lt;/h1&gt;&lt;h2 id="perlunya-pengembangan-sistem-dalam-suatu-organisasi"&gt;Perlunya Pengembangan Sistem dalam Suatu Organisasi
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Adanya permasalahan-permasalahan yang timbul pada sistem lama&lt;/strong&gt;
+Permasalahan yang timbul dapat berupa:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ketidakberesan&lt;/strong&gt; dalam sistem yang lama menyebabkan sistem tersebut tidak dapat beroperasi sesuai dengan yang diharapkan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pertumbuhan organisasi&lt;/strong&gt; yang menyebabkan harus disusunnya sistem yang baru&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Untuk meraih kesempatan-kesempatan (opportunities)&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Adanya instruksi-instruksi (directives)&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="prinsip-pengembangan-sistem"&gt;Prinsip Pengembangan Sistem
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Sistem yang dikembangkan adalah untuk manajemen&lt;/li&gt;
+&lt;li&gt;Sistem yang dikembangkan adalah investasi modal yang besar&lt;/li&gt;
+&lt;li&gt;Sistem yang dikembangkan memerlukan orang yang terdidik&lt;/li&gt;
+&lt;li&gt;Tahapan kerja dan tugas-tugas yang harus dilakukan dalam proses pengembangan sistem&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="siklus-hidup-pengembangan-sistem"&gt;Siklus Hidup Pengembangan Sistem
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;Tahapan kerja dari pengembangan sistem&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hamadah2o2.github.io/noteumc/p/tinjauan-umum-pengembangan-sistem/img/tahapan.jpg"
+width="705"
+height="467"
+srcset="https://hamadah2o2.github.io/noteumc/p/tinjauan-umum-pengembangan-sistem/img/tahapan_hu_15e77dadd41f8f13.jpg 480w, https://hamadah2o2.github.io/noteumc/p/tinjauan-umum-pengembangan-sistem/img/tahapan_hu_e34e476be6ef7640.jpg 1024w"
+loading="lazy"
+alt="tahapan"
+class="gallery-image"
+data-flex-grow="150"
+data-flex-basis="362px"
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Awal proyek sistem&lt;/li&gt;
+&lt;li&gt;Pengembangan sistem&lt;/li&gt;
+&lt;li&gt;Manajemen sistem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="kebijakan--perencanaan-sistem"&gt;&lt;strong&gt;Kebijakan &amp;amp; Perencanaan Sistem&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Adanya instruksi dari top manajer kepada bawahan bahwa perusahaan tersebut perlu dilakukan pengembangan sistem. Di dalam perencanaan sistem perlu direncanakan terlebih dahulu mengenai:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Berapa besar dana yang dibutuhkan untuk mengembangkan sistem&lt;/li&gt;
+&lt;li&gt;Berapa lama waktu yang dibutuhkan untuk mengembangkan sistem&lt;/li&gt;
+&lt;li&gt;Sudah siapkah personil-personil yang terlibat dalam pengembangan sistem tersebut&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="analisis-sistem"&gt;&lt;strong&gt;Analisis Sistem&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Mengevaluasi permasalahan-permasalahan, hambatan-hambatan yang terjadi dan kebutuhan-kebutuhan yang diharapkan sehingga dapat diusulkan perbaikan-perbaikan.&lt;/p&gt;
+&lt;h3 id="desain-sistem-secara-umum"&gt;&lt;strong&gt;Desain Sistem Secara Umum&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Tujuan untuk memberikan gambaran secara umum kepada user tentang sistem yang baru.&lt;/p&gt;
+&lt;h3 id="desain-sistem-secara-terinci"&gt;&lt;strong&gt;Desain Sistem Secara Terinci&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Tujuan untuk memberikan gambaran secara terperinci kepada user tentang sistem yang baru.&lt;/p&gt;
+&lt;h3 id="seleksi-sistem"&gt;&lt;strong&gt;Seleksi Sistem&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Menyeleksi penggunaan software maupun hardware di dalam penerapan sistem baru.&lt;/p&gt;
+&lt;h3 id="implementasi-sistem"&gt;&lt;strong&gt;Implementasi Sistem&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Menerapkan sistem informasi di dalam satu organisasi atau perusahaan.&lt;/p&gt;
+&lt;h3 id="perawatan-sistem"&gt;&lt;strong&gt;Perawatan Sistem&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;Tujuannya adalah untuk menjaga agar sistem informasi dapat digunakan dalam organisasi tersebut dalam jangka waktu yang cukup lama.&lt;/p&gt;
+&lt;h2 id="metode-metode-yang-digunakan-dalam-pengembangan-sistem"&gt;Metode-Metode yang Digunakan dalam Pengembangan Sistem
+&lt;/h2&gt;&lt;h2 id="pendekatan-pengembangan-sistem"&gt;Pendekatan Pengembangan Sistem
+&lt;/h2&gt;&lt;p&gt;Terdapat beberapa pendekatan untuk mengembangkan sistem, yaitu:&lt;/p&gt;
+&lt;h3 id="pendekatan-klasik-vs-pendekatan-terstruktur"&gt;Pendekatan Klasik vs Pendekatan Terstruktur
+&lt;/h3&gt;&lt;p&gt;(dipandang dari metodologi yang digunakan)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pendekatan Klasik&lt;/strong&gt;: Pendekatan dalam pengembangan sistem yang mengikuti tahapan-tahapan di systems life cycle tanpa dibekali dengan alat-alat dan teknik-teknik yang memadai&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pendekatan Terstruktur&lt;/strong&gt;: Dilengkapi dengan alat-alat dan teknik-teknik supaya membuatnya berhasil&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="pendekatan-sepotong-vs-pendekatan-sistem"&gt;Pendekatan Sepotong vs Pendekatan Sistem
+&lt;/h3&gt;&lt;p&gt;(dipandang dari sasaran yang akan dicapai)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pendekatan Sepotong&lt;/strong&gt;: Pendekatan pengembangan sistem yang menekankan pada suatu kegiatan atau aplikasi tertentu saja&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pendekatan Sistem&lt;/strong&gt;: Memperhatikan sistem informasi sebagai satu kesatuan terintegrasi untuk masing-masing kegiatan atau aplikasinya&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="pendekatan-bawah-naik-vs-pendekatan-atas-turun"&gt;Pendekatan Bawah-Naik vs Pendekatan Atas-Turun
+&lt;/h3&gt;&lt;p&gt;(dipandang dari cara menentukan kebutuhan dari sistem)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pendekatan Bawah-Naik&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dimulai dari level bawah organisasi (level operasional)&lt;/li&gt;
+&lt;li&gt;Disebut juga &lt;strong&gt;data analysis&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Tekanan pada data yang akan diolah terlebih dahulu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pendekatan Atas-Turun&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dimulai dari level atas organisasi (level perencanaan strategi)&lt;/li&gt;
+&lt;li&gt;Disebut juga &lt;strong&gt;decision analysis&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Tekanan pada informasi yang dibutuhkan untuk pengambilan keputusan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="pendekatan-sistem-menyeluruh-vs-pendekatan-moduler"&gt;Pendekatan Sistem-Menyeluruh vs Pendekatan Moduler
+&lt;/h3&gt;&lt;p&gt;(dipandang dari cara mengembangkannya)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pendekatan Sistem-Menyeluruh&lt;/strong&gt;: Mengembangkan sistem serentak secara menyeluruh&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pendekatan Moduler&lt;/strong&gt;: Memecahkan sistem yang rumit menjadi beberapa bagian atau modul yang sederhana&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="pendekatan-lompatan-jauh-vs-pendekatan-berkembang"&gt;Pendekatan Lompatan Jauh vs Pendekatan Berkembang
+&lt;/h3&gt;&lt;p&gt;(dipandang dari teknologi yang akan digunakan)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pendekatan Lompatan Jauh&lt;/strong&gt;: Menerapkan perubahan menyeluruh secara serentak menggunakan teknologi canggih&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pendekatan Berkembang&lt;/strong&gt;: Menerapkan teknologi canggih hanya untuk aplikasi-aplikasi yang memerlukan saja pada saat itu saja&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="alat-alat-dan-teknik-teknik-yang-digunakan-dalam-pengembangan-sistem"&gt;Alat-alat dan Teknik-teknik yang Digunakan dalam Pengembangan Sistem
+&lt;/h2&gt;&lt;h3 id="alat-alat-permodelan-sistem"&gt;Alat-Alat Permodelan Sistem:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;System Flowchart&lt;/li&gt;
+&lt;li&gt;System Procedure Diagram (Flowmap)&lt;/li&gt;
+&lt;li&gt;Data Flow Diagram (DFD)&lt;/li&gt;
+&lt;li&gt;Entity Relationship Diagram (ERD)&lt;/li&gt;
+&lt;li&gt;Normalisasi&lt;/li&gt;
+&lt;li&gt;dll.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="teknik-teknik-yang-digunakan-dalam-pengembangan-sistem"&gt;Teknik-teknik yang Digunakan dalam Pengembangan Sistem:
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Teknik Analisis Biaya&lt;/li&gt;
+&lt;li&gt;Teknik Analisis Penjadwalan Proyek Sistem&lt;/li&gt;
+&lt;li&gt;Teknik Pengumpulan Data:
+&lt;ul&gt;
+&lt;li&gt;Interview&lt;/li&gt;
+&lt;li&gt;Observasi&lt;/li&gt;
+&lt;li&gt;Questionnaire&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>Konsep Dasar Sistem Informasi</title><link>https://hamadah2o2.github.io/noteumc/p/konsep-dasar-sistem-informasi/</link><pubDate>Tue, 28 Oct 2025 11:45:40 +0700</pubDate><guid>https://hamadah2o2.github.io/noteumc/p/konsep-dasar-sistem-informasi/</guid><description>&lt;img src="https://hamadah2o2.github.io/noteumc/p/konsep-dasar-sistem-informasi/cover.jpg" alt="Featured image of post Konsep Dasar Sistem Informasi" /&gt;&lt;h1 id="konsep-dasar-sistem"&gt;Konsep Dasar Sistem
+&lt;/h1&gt;&lt;h2 id="definisi-sistem"&gt;Definisi Sistem
+&lt;/h2&gt;&lt;p&gt;Kumpulan unsur-unsur yang saling berinteraksi satu dengan yang lain untuk menghasilkan tujuan.&lt;/p&gt;
+&lt;h2 id="karakteristik-sistem"&gt;Karakteristik Sistem
+&lt;/h2&gt;&lt;p&gt;sifat-sifat khusus yang dimiliki oleh sistem&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Komponen Sistem
+Suatu sistem terdiri dari sejumlah komponen yang saling berinteraksi yang berarti saling bekerja sama membentuk satu kesatuan.&lt;/li&gt;
+&lt;li&gt;Batas Sistem
+Batas sistem merupakan daerah yang membatasi antara suatu sistem dengan sistem yang lainnya atau dengan lingkungan luarnya.&lt;/li&gt;
+&lt;li&gt;Lingkungan Luar Sistem
+Lingkungan luar dari suatu sistem adalah apapun diluar batas dari sistem yang mempengaruhi operasi sistem. Lingkungan luar sistem dapat bersifat menguntungkan dan merugikan.&lt;/li&gt;
+&lt;li&gt;Penghubung Sistem
+Penghubung sistem merupakan media penghubung antara satu subsistem dengan subsistem yang lain.&lt;/li&gt;
+&lt;li&gt;Masukan Sistem
+Masukan adalah energi yang dimasukan ke dalam sistem. Masukan dapat berupa masukan perawatan dan masukan sinyal. Masukan perawatan adalah energi yang dimasukkan supaya sistem tersebut dapat dioperasikan. Masukan sinyal adalah energi yang diproses untuk didapatkan keluaran.&lt;/li&gt;
+&lt;li&gt;Keluaran Sistem
+Keluaran sistem adalah hasil dari energi yang diolah dan diklasifikasikan menjadi keluaran yang berguna dan sisa pembuangan.&lt;/li&gt;
+&lt;li&gt;Pengolah Sistem
+: Suatu sistem dapat mempunyai suatu bagian pengolahan yang akan merubah masukan menjadi keluaran.&lt;/li&gt;
+&lt;li&gt;Tujuan Sistem
+: Suatu sistem pasti mempunyai tujuan. Kalau suatu sistem tidak mempunyai tujuan, maka operasi sistem tidak akan ada gunanya.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="klasifikasi-sistem"&gt;Klasifikasi Sistem
+&lt;/h2&gt;&lt;p&gt;Sistem dapat digolongkan menjadi beberapa jenis, yaitu:&lt;/p&gt;
+&lt;h3 id="sistem-abstrak--x--sistem-fisik"&gt;Sistem Abstrak X Sistem Fisik
+&lt;/h3&gt;&lt;p&gt;Sistem abstrak adalah sistem yang berupa pemikiran atau ide-ide yang tidak tampak secara fisik. Contoh : Sistem Teologi yang menerangkan hubungan manusia dengan Tuhan.
+Sedangkan sistem fisik merupakan sistem yang ada secara fisik. Contoh : Sistem Komputer, Sistem Keuangan&lt;/p&gt;
+&lt;h3 id="sistem-alamiah--x--sistem-buatan-manusia"&gt;Sistem Alamiah X Sistem Buatan Manusia
+&lt;/h3&gt;&lt;p&gt;Sistem alamiah adalah sistem yang terjadi melalui proses alam tidak tidak dibuat oleh manusia. Contoh pada sistem alamiah: sistem peredaran bumi. Sedangkan sistem buatan manusia adalah sistem yang dirancang oleh manusia. Contoh: sistem robotika&lt;/p&gt;
+&lt;h3 id="sistem-deterministik--x--sistem-probabilistik"&gt;Sistem Deterministik X Sistem Probabilistik
+&lt;/h3&gt;&lt;p&gt;Sistem deterministik adalah sistem yang berinteraksi antara bagiannya yang dapat diprediksi secara pasti. Contoh: sistem komputer. Sedangkan sistem probabilistik adalah sistem yang tidak bisa diprediksikan secara pasti. Contoh: sistem manusia&lt;/p&gt;
+&lt;h3 id="sistem-tertutup--x--sistem-terbuka"&gt;Sistem Tertutup X Sistem Terbuka
+&lt;/h3&gt;&lt;p&gt;Sistem tertutup adalah sistem yang tidak berhubungan dan tidak terpengaruh oleh lingkungan luar. Contoh : tabung reaksi. Sedangkan sistem terbuka adalah sistem yang berhubungan dan terpengaruh oleh lingkungan luar. Contoh : sistem organisasi&lt;/p&gt;
+&lt;h1 id="konsep-dasar-informasi"&gt;Konsep Dasar Informasi
+&lt;/h1&gt;&lt;h2 id="definisi-data--informasi"&gt;Definisi Data &amp;amp; Informasi
+&lt;/h2&gt;&lt;p&gt;Data yang diolah menjadi bentuk yang lebih berguna bagi penerimanya&lt;/p&gt;
+&lt;p&gt;Tingkatan Data&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Character&lt;/li&gt;
+&lt;li&gt;Field&lt;/li&gt;
+&lt;li&gt;File&lt;/li&gt;
+&lt;li&gt;Database&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="siklus-informasi"&gt;Siklus Informasi
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://hamadah2o2.github.io/noteumc/p/konsep-dasar-sistem-informasi/img/SiklusInformasi.png"
+width="443"
+height="329"
+srcset="https://hamadah2o2.github.io/noteumc/p/konsep-dasar-sistem-informasi/img/SiklusInformasi_hu_7aba0b456ac758e7.png 480w, https://hamadah2o2.github.io/noteumc/p/konsep-dasar-sistem-informasi/img/SiklusInformasi_hu_284b7883d31ad267.png 1024w"
+loading="lazy"
+alt="Gambar Siklus Informasi"
+class="gallery-image"
+data-flex-grow="134"
+data-flex-basis="323px"
+&gt;&lt;/p&gt;
+&lt;h2 id="contoh-penggunaan-data-dan-informasi-yang-dihasilkan-pada-perancangan-sistem-informasi"&gt;Contoh Penggunaan Data dan Informasi yang dihasilkan pada perancangan sistem informasi.
+&lt;/h2&gt;&lt;h2 id="mutu-informasi-kualitas--nilai-informasi"&gt;Mutu Informasi: Kualitas &amp;amp; Nilai Informasi.
+&lt;/h2&gt;&lt;p&gt;a.Kualitas informasi tergantung dari 3 (tiga) hal :
+1. Informasi harus akurat: : informasi harus terbebas dari kesalahan-kesalahan, tidak bias dan tidak menyesatkan
+2. Informasi harus tepat waktu: : informasi yang datang kepada penerimanya tidak boleh mengalami keterlambatan
+3. Informasi harus relevan: : informasi memiliki manfaat bagi penerimanya&lt;/p&gt;
+&lt;p&gt;b.Nilai informasi ditentukan oleh 2 (dua) hal :
+1. Manfaat dari informasi tersebut
+2. Biaya untuk mendapatkan informasi&lt;/p&gt;
+&lt;h1 id="konsep-dasar-sistem-informasi"&gt;Konsep Dasar Sistem Informasi
+&lt;/h1&gt;&lt;h2 id="definisi-sistem-informasi"&gt;Definisi Sistem Informasi
+&lt;/h2&gt;&lt;p&gt;Suatu sistem di dalam suatu organisasi yang mempertemukan kebutuhan pengolahan transaksi harian, mendukung operasi, bersifat manajerial dan kegiatan strategi dari suatu organisasi dan menyediakan pihak luar tertentu dengan laporan-laporan yang diperlukan.&lt;/p&gt;
+&lt;h2 id="komponen-komponen-sistem-informasi"&gt;Komponen-Komponen Sistem Informasi:
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;HARDWARE: media input, media proses, media output, media simpanan luar&lt;/li&gt;
+&lt;li&gt;SOFTWARE: sistem operasi, bahasa pemrograman, paket aplikasinya&lt;/li&gt;
+&lt;li&gt;DATABASE: Kumpulan File-File yang saling berhubungan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tingkatan Data: character, field: NIM-&amp;gt; 12345, Record #1-&amp;gt; NIM, Nama_MHS, Prodi, Fakultas. File-&amp;gt; MHS #1 s/d #499&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;PROSEDUR: alur kerja dari sebuah sistem. Ruang Lingkup Sistem.
+Tentukan Ruang Lingkup Sistem pada perancangan Sistem Informasi Penerimaan Mahasiswa Baru Pada Univ. Muhammadiyah Cirebon.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Pendaftaran Mhs Baru&lt;/li&gt;
+&lt;li&gt;Pengecekan Persyaratan Pendaftaran&lt;/li&gt;
+&lt;li&gt;Penyeleksian Mhs Baru&lt;/li&gt;
+&lt;li&gt;Penerimaan Mhs Baru&lt;/li&gt;
+&lt;li&gt;Registrasi Ulang&lt;/li&gt;
+&lt;li&gt;Penentuan Program Studi&lt;/li&gt;
+&lt;li&gt;Pembagian Kelas&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;USER &amp;amp; ADM&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="peranan-sistem-informasi-bagi-manajemen"&gt;Peranan Sistem Informasi Bagi Manajemen:
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Dapat mendukung dalam pengambilan keputusan&lt;/li&gt;
+&lt;li&gt;Dapat mendukung kegiatan manajemen&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Yang termasuk ke dalam kegiatan manajemen adalah::
+1. Perencanaan strategis
+a. Proses evaluasi lingkungan luar organisasi : harus mampu bereaksi terhadap kesempatan-kesempatan dari lingkungan luar dan tanggap terhadap tekanan-tekanan dari lingkungan luar.
+b. Penetapan tujuan
+Tujuan adalah apa yang ingin dicapai oleh organisasi. Tujuan ditetapkan oleh manajemen tingkat atas di dalam proses perencanaan strategis yang bersifat jangka panjang.
+c. Penentuan strategis
+Menentukan tindakan-tindakan yang harus dilakukan oleh organisasi dengan maksud untuk mencapai tujuan-tujuannya.
+2. Pengendalian manajemen
+Yaitu proses untuk meyakinkan bahwa organisasi telah menjalankan strategi yang sudah ditetapkan dengan efektif dan efisien.
+3. Pengendalian operasiTanggal
+Yaitu proses untuk meyakinkan bahwa tiap-tiap tugas tertentu telah dilaksanakan secara efektif dan efisien.&lt;/p&gt;
+&lt;h2 id="komponen-komponen-sistem-informasi-1"&gt;Komponen-Komponen Sistem Informasi.
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Perangkat Keras (Hardware).
+a. Media Input: keyboard, mouse, scanner
+b. Media Proses: prosessor
+c. Media Output: monitor, printer
+d. Media Simpanan Luar: harddisk, flashdisk, compact disk&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Perangkat Lunak (Software)
+a.Sistem Operasi: Windows
+b.Bahasa Pemrograman: PHP
+c.Perangkat Aplikasi: visio, flash, dreamweaver&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Prosedur: tahapan kerja dari sistem. Ruang lingkup sistem informasi akademik berbasis web: prosedur pengajuan KRS, prosedur kegiatan belajar mengajar, prosedur pengolah data nilai, prosedur pembuatan laporan dll.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Pada Perancangan Sistem Informasi Penjualan Android: prosedur pendaftaran, login, pemesanan order, konfirmasi barang dll.&lt;/p&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;Penggunaan Basis Data: mata_kuliah, dosen, mahasiswa, nilai, jadwal, ruang_kuliah, presensi_dosen, presensi_mhs, KRS dsb.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Perancangan Sistem Informasi Penjualan Berbasis Android: supplier, konsumen, sales, produk, pemesanan, konf_order, penjualan, pembayaran, konf_bayar, kirim, konf_kirim dll&lt;/p&gt;
+&lt;ol start="5"&gt;
+&lt;li&gt;Hak Akses Admin &amp;amp; User.
+Admin: staf di bagian akademik, staf di bagian keu, staf di fakultas, staf di prodi
+User: mahasiswa, dosen, kaprodi, dekan dll&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id="tata-kelola-sistem-informasi"&gt;Tata Kelola Sistem Informasi
+&lt;/h1&gt;&lt;h2 id="definisi"&gt;Definisi
+&lt;/h2&gt;&lt;p&gt;Tata kelola Sistem Informasi (IT Governance) adalah kerangka kerja yang terdiri dari proses, struktur, dan mekanisme yang digunakan untuk mengarahkan, mengendalikan, dan mengawasi penggunaan teknologi informasi dalam suatu organisasi. Tujuannya adalah untuk memastikan bahwa investasi TI selaras dengan tujuan bisnis, memberikan nilai tambah, mengelola risiko, dan memastikan pemanfaatan sumber daya TI yang optimal.&lt;/p&gt;
+&lt;h2 id="framework-pengembangan-sistem"&gt;Framework Pengembangan Sistem
+&lt;/h2&gt;&lt;p&gt;Berikut beberapa framework yang umum digunakan dalam tata kelola sistem informasi:&lt;/p&gt;
+&lt;h3 id="1-cobit-control-objectives-for-information-and-related-technologies"&gt;1. COBIT (Control Objectives for Information and Related Technologies)
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Framework komprehensif untuk tata kelola dan manajemen TI&lt;/li&gt;
+&lt;li&gt;Menyediakan alat untuk mengukur dan memantau kinerja TI&lt;/li&gt;
+&lt;li&gt;Fokus pada alignment TI dengan tujuan bisnis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="2-itil-information-technology-infrastructure-library"&gt;2. ITIL (Information Technology Infrastructure Library)
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Framework untuk manajemen layanan TI&lt;/li&gt;
+&lt;li&gt;Menekankan pada delivery layanan TI yang berkualitas&lt;/li&gt;
+&lt;li&gt;Mencakup proses seperti incident management, change management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="3-isoiec-27001"&gt;3. ISO/IEC 27001
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Standar internasional untuk manajemen keamanan informasi&lt;/li&gt;
+&lt;li&gt;Fokus pada pengendalian risiko keamanan informasi&lt;/li&gt;
+&lt;li&gt;Membangun sistem manajemen keamanan informasi (ISMS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="4-coso-committee-of-sponsoring-organizations"&gt;4. COSO (Committee of Sponsoring Organizations)
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Framework untuk pengendalian internal perusahaan&lt;/li&gt;
+&lt;li&gt;Mencakup aspek pengendalian lingkungan, risiko, dan monitoring&lt;/li&gt;
+&lt;li&gt;Diterapkan dalam konteks tata kelola TI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="5-togaf-the-open-group-architecture-framework"&gt;5. TOGAF (The Open Group Architecture Framework)
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Framework untuk enterprise architecture&lt;/li&gt;
+&lt;li&gt;Membantu merancang arsitektur TI yang selaras dengan bisnis&lt;/li&gt;
+&lt;li&gt;Menyediakan metodologi pengembangan yang terstruktur&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="jurnal-nasionalinternasional-yang-relevan"&gt;Jurnal Nasional/Internasional yang Relevan:
+&lt;/h2&gt;&lt;h3 id="analisis-kinerja-tata-kelola-teknologi-informasi-menggunakan-framework-cobit-2019-pada-universitas-jabal-ghafur"&gt;ANALISIS KINERJA TATA KELOLA TEKNOLOGI INFORMASI MENGGUNAKAN FRAMEWORK COBIT 2019 PADA UNIVERSITAS JABAL GHAFUR
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Penulis:&lt;/strong&gt; Salimuddin Salimuddin, Munirul Ula, Nurdin Nurdin&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tahun Terbit:&lt;/strong&gt; 2025&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ringkasan:&lt;/strong&gt; Tujuan: Mengevaluasi Tata Kelola TI di Unigha menggunakan COBIT 2019 (EDM03 &amp;amp; MEA03). Metode: Kuantitatif (Kuesioner) dengan responden RACI Chart. Hasil: Kapabilitas Level 1 (100%), Level 2 Largely Achieved. Terdapat kesenjangan (gap) sebesar 3 level menuju target Level 4. Rekomendasi meliputi pembaruan kebijakan internal dan pelatihan SDM.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Review:&lt;/strong&gt; Kelebihan: Penerapan kerangka COBIT 2019 yang spesifik dalam konteks Perguruan Tinggi di Indonesia. Memberikan gap analysis yang jelas antara kondisi as-is dan target to-be.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kekurangan:&lt;/strong&gt; Fokus terbatas pada dua domain COBIT. Hasil Level 1/2 menunjukkan maturitas yang sangat rendah, yang mungkin dipengaruhi oleh keterbatasan implementasi instrumen atau bias responden.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sumber:&lt;/strong&gt; &lt;a class="link" href="https://doi.org/10.23960/jitet.v13i2.6130" target="_blank" rel="noopener"
+&gt;https://doi.org/10.23960/jitet.v13i2.6130&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="urgensi-akreditasi-perguruan-tinggi-di-indonesia"&gt;Urgensi Akreditasi Perguruan Tinggi di Indonesia
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Penulis:&lt;/strong&gt; Muh. Ihsan, Muchammad Eka Mahmud&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tahun Terbit:&lt;/strong&gt; 2025&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ringkasan:&lt;/strong&gt; Tujuan: Mengkaji makna dan urgensi Akreditasi PT. Metode: Kajian Literatur (Literature Review) dari berbagai dokumen terkait (jurnal, buku). Hasil: Akreditasi merupakan penentuan standar kualitas yang meningkatkan reputasi, kepercayaan publik, dan menjadi prasyarat untuk akses pendanaan/hibah bagi institusi. Akreditasi merupakan upaya pemerintah untuk menstandardisasi mutu lulusan.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Review:&lt;/strong&gt; Kelebihan: Menyediakan kerangka konseptual yang sangat relevan, menyoroti dampak Akreditasi pada aspek reputasi dan finansial institusi.&lt;/p&gt;
+&lt;p&gt;Kekurangan: Karena sifatnya kajian literatur, artikel ini kurang membahas dinamika implementasi standar akreditasi yang berubah-ubah (misalnya, IAPS 4.0) atau tantangan internal yang dihadapi PT dalam pengumpulan data dan pelaporan.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sumber:&lt;/strong&gt; &lt;a class="link" href="https://ejournal.stitsyambtg.ac.id/index.php/nabawi/article/view/119" target="_blank" rel="noopener"
+&gt;https://ejournal.stitsyambtg.ac.id/index.php/nabawi/article/view/119&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="dashboard-monitoring-alumni-dengan-teknologi-business-intelligence-pada-sistem-tracer-study-undiksha"&gt;Dashboard Monitoring Alumni dengan Teknologi Business Intelligence pada Sistem Tracer Study Undiksha
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Penulis:&lt;/strong&gt; Made Diah Arista Devi, I Gusti Ayu Agung Diatri Indradewi, I Ketut Resika Arthana&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tahun Terbit:&lt;/strong&gt; 2023&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ringkasan:&lt;/strong&gt; Penelitian ini mengubah data tracer study (pelacakan alumni) Undiksha yang kompleks menjadi visual dashboard yang interaktif. Tujuannya agar pimpinan mudah memahami data riwayat lulusan.&lt;/p&gt;
+&lt;p&gt;Peneliti menggunakan teknologi Business Intelligence (BI) dengan software Microsoft Power BI dan data lulusan 2019-2021. Hasilnya, dashboard tersebut berhasil dibuat dan divalidasi (lolos uji UAT) oleh para pemangku kepentingan, termasuk Wakil Rektor.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Review:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kelebihan:&lt;/strong&gt; Sangat Praktis: Memberikan solusi modern (BI) untuk masalah nyata yang dihadapi banyak universitas dalam membaca data alumni. Diuji langsung oleh pengguna akhir yang sesungguhnya (pimpinan universitas), sehingga dipastikan fungsional.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kekurangan:&lt;/strong&gt; Belum Mengukur Dampak: Penelitian hanya membuktikan dashboard &amp;ldquo;berhasil dibuat&amp;rdquo;, tapi belum mengukur apakah dashboard itu benar-benar mempercepat atau memperbaiki kualitas pengambilan keputusan. Fokus pada fungsionalitas (lolos UAT), bukan pada kemudahan penggunaan (usability) bagi pengguna awam.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sumber:&lt;/strong&gt; &lt;a class="link" href="https://ejournal.undiksha.ac.id/index.php/insert/article/view/58275" target="_blank" rel="noopener"
+&gt;https://ejournal.undiksha.ac.id/index.php/insert/article/view/58275&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="rancang-bangun-sistem-business-intelligence-universitas-sebagai-pendukung-pengambilan-keputusan-akademik"&gt;Rancang Bangun Sistem Business Intelligence Universitas Sebagai Pendukung Pengambilan Keputusan Akademik
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Penulis:&lt;/strong&gt; Zainal Arifin, Aris Sugiharto&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tahun Terbit:&lt;/strong&gt; 2013&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ringkasan:&lt;/strong&gt; Penelitian ini bertujuan merancang dan membangun sistem Business Intelligence (BI) berbasis web untuk Universitas Mulawarman, guna mendukung pengambilan keputusan di tingkat pimpinan.&lt;/p&gt;
+&lt;p&gt;Sistem ini bekerja dengan mengumpulkan data akademik ke dalam data warehouse. Data tersebut kemudian dianalisis menggunakan berbagai teknik seperti OLAP, KPI, dan data mining. Hasil analisis data tersebut disajikan dalam bentuk dashboard dan laporan statistik yang dapat diakses secara online melalui portal web, sehingga pimpinan dapat mengevaluasi kinerja akademik dan membuat keputusan strategis dengan lebih baik.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Review:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kelebihan:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Solusi Strategis: Mengatasi kebutuhan penting di universitas akan analisis data yang terpusat dan mudah diakses untuk pengambilan keputusan strategis (penting untuk mutu dan akreditasi).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pendekatan Komprehensif: Desain sistem ini mencakup alur BI yang lengkap, mulai dari integrasi data (data warehouse) hingga analisis mendalam (OLAP) dan visualisasi (dashboard).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Kekurangan:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fokus pada Rancangan: Penelitian ini (berdasarkan abstrak) lebih fokus pada penghasilan &amp;ldquo;kerangka sistem&amp;rdquo; dan &amp;ldquo;web portal&amp;rdquo;. Belum terlihat jelas sejauh mana sistem ini diimplementasikan penuh atau diukur dampaknya terhadap keputusan yang telah diambil.&lt;/li&gt;
+&lt;li&gt;Metode Pengujian: Abstrak tidak menyebutkan adanya pengujian pengguna akhir (User Acceptance Testing/UAT) dengan pimpinan universitas untuk memvalidasi apakah dashboard yang dihasilkan benar-benar efektif dan mudah digunakan oleh mereka.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sumber:&lt;/strong&gt; &lt;a class="link" href="https://ejournal.undip.ac.id/index.php/jsinbis/article/view/9562" target="_blank" rel="noopener"
+&gt;https://ejournal.undip.ac.id/index.php/jsinbis/article/view/9562&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="sistem-informasi-pengajaran-penulisan-bahasa-inggris-bagi-mahasiswa-berbasis-web"&gt;Sistem Informasi Pengajaran Penulisan Bahasa Inggris Bagi Mahasiswa Berbasis Web
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Penulis:&lt;/strong&gt; Zulfi Azhar, Jeperson Hutahaean, Royal Kisaran&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tahun Terbit:&lt;/strong&gt; 2017&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ringkasan:&lt;/strong&gt; Penelitian ini bertujuan untuk membantu proses belajar mengajar mata kuliah Writing (Menulis) dalam Bahasa Inggris, yang sering terkendala oleh keterbatasan waktu tatap muka di kelas untuk feedback (umpan balik).&lt;/p&gt;
+&lt;p&gt;Untuk mengatasi ini, peneliti merancang sebuah sistem informasi berbasis web. Sistem ini berfungsi sebagai media bagi mahasiswa untuk mengumpulkan tugas menulis mereka secara online, dan bagi dosen untuk memberikan koreksi dan feedback langsung pada tugas tersebut melalui sistem. Metode pengembangan yang digunakan adalah Waterfall. Hasilnya adalah sebuah aplikasi yang diharapkan dapat membuat proses belajar mengajar Writing menjadi lebih fleksibel dan efektif.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Review:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kelebihan:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fokus pada masalah spesifik e-learning, yaitu feedback untuk mata kuliah keterampilan (menulis), bukan hanya pengumpulan tugas biasa. Sistem ini memecahkan batasan waktu &amp;ldquo;tatap muka&amp;rdquo;, memungkinkan dosen dan mahasiswa berinteraksi (memberi/menerima koreksi) kapan saja.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Kekurangan:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Penggunaan metode Waterfall (dalam artikel yang saya temukan untuk judul ini) kurang ideal karena bersifat kaku. Metode Prototype atau Agile mungkin lebih cocok agar sistem bisa disesuaikan berkali-kali berdasarkan feedback dosen dan mahasiswa. Penelitian (berdasarkan abstrak) fokus pada &amp;ldquo;terbangunnya&amp;rdquo; sistem. Belum ada pengujian yang mengukur apakah penggunaan sistem ini secara signifikan meningkatkan nilai atau kemampuan menulis mahasiswa dibandingkan metode konvensional.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sumber:&lt;/strong&gt; &lt;a class="link" href="https://www.researchgate.net/publication/327110437_Sistem_Informasi_Pengajaran_Penulisan_Bahasa_Inggris_Bagi_Mahasiswa_Berbasis_Web" target="_blank" rel="noopener"
+&gt;https://www.researchgate.net/publication/327110437_Sistem_Informasi_Pengajaran_Penulisan_Bahasa_Inggris_Bagi_Mahasiswa_Berbasis_Web&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
