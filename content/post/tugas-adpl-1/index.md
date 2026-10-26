@@ -4,7 +4,7 @@ description: Laporan notes pemenuhan tugas pertemuan pertama mata kuliah Project
 date: 2026-10-19T09:00:00+07:00
 image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkVRN00qdsXIjmGc2C2tiWUoF8R_tHVeSxfisHcPryAcytkFlZzbjB8M4&s=10
 categories: 
-    - "jaringan-komputer"
+    - "analisis-dan-design-perangkat-lunak"
 tags:
     - "iot"
     - "project-system"
