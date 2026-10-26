@@ -4,7 +4,7 @@ description: Laporan notes pemenuhan tugas pertemuan pertama mata kuliah Project
 date: 2026-10-19T09:00:00+07:00
 image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkVRN00qdsXIjmGc2C2tiWUoF8R_tHVeSxfisHcPryAcytkFlZzbjB8M4&s=10
 categories: 
-    - "analisis-dan-design-perangkat-lunak"
+    - "analisis dan design perangkat lunak"
 tags:
     - "iot"
     - "project-system"
@@ -338,3 +338,6 @@ Beberapa penelitian sejenis yang menjadi referensi awal:
 ---
 
 Dokumen ini akan diperbarui seiring berjalannya tahapan Project System berikutnya (analisis kebutuhan, perancangan detail, implementasi prototipe, dan pengujian).
+
+> File Project System:\
+> [Project System.pdf](./file/240511053_Project%20Sistem_Muhammad%20Rozaan.pdf)
